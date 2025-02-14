@@ -61,7 +61,7 @@ A student who successfully completes this course will:
 |------|-------|
 | 2 | **Getting Started** <br> - Course Structure; Sign up for Discord; Get started with Dev Board + Servo; <br> - **HW** start vision board; **HW** complete dev board challenge |
 | 4 | **Define your Avatar** <br> - Feedback on avatar concepts; Hands on with mechanical movement; Automata activity; <br> - **HW** cardboard automata; **HW** Explanatory sketch for avatar communicating form and function |
-| 5 | **Define your Avatar** <br> - Lecture cybernetics, Lecture project management; Hands on with sensors and actuators <br> - **HW** Build, test, and refine electromechanical mockup; **HW** List of materials for project |
+| 5 | **Systems Design** <br> - Lecture cybernetics, Lecture project management; Hands on with sensors and actuators <br> - **HW** Build, test, and refine electromechanical mockup; **HW** List of materials for project |
 | 7 | **Working Session** <br> - Time and support for building and testing Avatar <br> - **HW** Complete your avatar for week 9 presentations |
 | 9 | **Presentation Party** <br> - Teddy bears' coming out picnic <br> - **HW** Final documentation submission |
 | Finals | **Submit Documentation** |
