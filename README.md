@@ -1,4 +1,4 @@
-# VIS 87 / MAE 87: Creative Robotics: Engineering Expression
+# MAE / VIS 87: Creative Robotics: Engineering Expression
 [Schedule](#schedule) | [Description](#description) | [Resources](#resources) | [Grading](#grading) | [Policies](#policies) | [References](#references)
 
 <!--
@@ -14,11 +14,11 @@ In this hands-on seminar we will explore the connection between art and engineer
 - **Instructors:**
   - Dr. Jennifer Mullin, Department of Mechanical and Aerospace Engineering
   - Dr. Robert Twomey, Department of Visual Arts
-- **Class:** Tu/Th 9:30-10:50 AM
+- **Class:** Wednesday 1-3pm
+  - (Meets weeks 2, 4, 5, 7, 9)
 - **Location:** [SME](https://map.concept3d.com/?id=1005#!ct/18312,63891,65653?s/SME_Main) 302 (Classroom opposite Envision Maker Space)
 - **Office Hours:**
-  - in person: Thursday 11-noon (Envision)
-  - online: Friday noon-1pm (Discord)
+  - off weeks (1, 3, 6, 8) (Envision)
 
 ## Course objectives
 [TK subject to revision]
@@ -59,17 +59,17 @@ A student who successfully completes this course will:
 
 | Week | Topic |
 |------|-------|
-| 2 | **[Intro and Overview](sessions/sess1.md#agenda)** <br> - Course Policies; Envision orientation; Sign up for Discord <br> - **HW** [TK]|
-| 4 | **[Intro and Overview](sessions/sess1.md#agenda)** <br> - Course Policies; Envision orientation; Sign up for Discord <br> - **HW** [TK]|
-| 5 | **[Intro and Overview](sessions/sess1.md#agenda)** <br> - Course Policies; Envision orientation; Sign up for Discord <br> - **HW** [TK]|
-| 7 | **[Intro and Overview](sessions/sess1.md#agenda)** <br> - Course Policies; Envision orientation; Sign up for Discord <br> - **HW** [TK]|
-| 9 | **[Intro and Overview](sessions/sess1.md#agenda)** <br> - Course Policies; Envision orientation; Sign up for Discord <br> - **HW** [TK]|
+| 2 | **Getting Started** <br> - Course Structure; Sign up for Discord; Get started with Dev Board + Servo; <br> - **HW** start vision board; **HW** complete dev board challenge |
+| 4 | **Define your Avatar** <br> - Feedback on avatar concepts; Hands on with mechanical movement; Automata activity; <br> - **HW** cardboard automata; **HW** Explanatory sketch for avatar communicating form and function |
+| 5 | **Define your Avatar** <br> - Lecture cybernetics, Lecture project management; Hands on with sensors and actuators <br> - **HW** Build, test, and refine electromechanical mockup; **HW** List of materials for project |
+| 7 | **Working Session** <br> - Time and support for building and testing Avatar <br> - **HW** Complete your avatar for week 9 presentations |
+| 9 | **Presentation Party** <br> - Teddy bears' coming out picnic <br> - **HW** Final documentation submission |
 | Finals | **Submit Documentation** |
 
 # Grading
 
 ## Graded activities
-[TK Subjet to Revision]
+[TK Subject to Revision]
 - 40% Exercises – approximately 8 weekly exercises
 - 45% Projects – 3 total at approximately 15% each
 - 10% Digital Sketchbook - cumulative
