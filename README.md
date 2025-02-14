@@ -1,4 +1,4 @@
-# MAE / VIS 87: Creative Robotics: Engineering Expression
+# VIS 87 / MAE 87: Creative Robotics: Engineering Expression
 [Schedule](#schedule) | [Description](#description) | [Resources](#resources) | [Grading](#grading) | [Policies](#policies) | [References](#references)
 
 <!--
