@@ -4,7 +4,7 @@
 
 ![Image](assets/creative-robotics-image.jpg)
 
-*Clockwise from top left: [Edward Ihnatowicz, Senster (1970)](https://evoluon.dse.nl/senster-e.htm); [Perry Nightingale from WPP with Boston Dynamics Spot, Adobe Max (2023)](https://www.adobe.com/max/2023/sessions/na-dancing-robots-and-generative-ai-the-future-of-s6151.html?linkId=100000254219236); [Moritz Bächer and Disney Research Zurich, Bipedal WALL-E Robot (2023)](https://www.youtube.com/watch?v=-cfIm06tcfA)*
+*Clockwise from top left: Hu et al. [ELEGNT: Expressive and Functional Movement Design for Non-Anthropomorphic Robot](https://machinelearning.apple.com/research/elegnt-expressive-functional-movement) (2025); Edward Ihnatowicz [Senster](https://evoluon.dse.nl/senster-e.htm) (1970); Moritz Bächer and Disney Research Zurich [Bipedal WALL-E Robot](https://www.youtube.com/watch?v=-cfIm06tcfA) (2023); Perry Nightingale from WPP with Boston Dynamics Spot [Dancing Robots and Generative AI: The Future of Creativity](https://www.adobe.com/max/2023/sessions/na-dancing-robots-and-generative-ai-the-future-of-s6151.html?linkId=100000254219236)(2023)*
 
 # Description
 
@@ -16,24 +16,17 @@ In this hands-on seminar we will explore the connection between art and engineer
   - Dr. Jennifer Mullin, Department of Mechanical and Aerospace Engineering
   - Dr. Robert Twomey, Department of Visual Arts
 - **Class:** Wednesday 1-3pm
-  - (Meets weeks 2, 4, 5, 7, 9)
+  - (meets weeks 2, 4, 5, 7, 9)
 - **Location:** [SME](https://map.concept3d.com/?id=1005#!ct/18312,63891,65653?s/SME_Main) 302 (Classroom opposite Envision Maker Space)
 - **Office Hours:**
   - off weeks (1, 3, 6, 8) (Envision)
 
 ## Course objectives
-[TK subject to revision]
--	Experiential learning.
--	To gain a working understanding of 3d modeling software and 3d capture, as ways to create and manipulate form on a computer. 
--	To become familiar with digital fabrication workflow: the steps to get from 3d models and digital designs to physical objects.
--	To gain experience with hardware and digital fabrication as means of creative production.
--	To learn the fundamentals of safe equipment operation and maintenance for all processes introduced in class. 
-
-A student who successfully completes this course will:
--	Be able to design and fabricate physical objects with a variety of 3d modeling and digital capture technologies. 
--	Have a working knowledge of projects and practitioners employing digital fabrication and hardware techniques.
--	Demonstrate a satisfactory ability to critique and engage in a discussion about creative work employing digital fabrication and hardware-based interaction.
--	Be able to think critically about computer-aided design and fabrication methods and relate them to historical art methods.
+Students who complete the course will:
+-	Gain a working understanding of mechanics, linkages, and mechanical automata.
+-	Develop facility with digital fabrication, hand craft, and mechatronic automation.
+-	Develop a conceptual understanding of control systems, cybernetics, and expressivity in robot design.
+- Be able to think critically about human-robot interaction and issues of representation in robot design.
 
 **Prequisites:** None.
 
@@ -41,7 +34,6 @@ A student who successfully completes this course will:
 - **Canvas:** [TK]
 - **Discord:** check canvas
 - **[Rhino 3d](https://www.rhino3d.com/)**
-  - **[Grasshopper](https://www.grasshopper3d.com/)**
 - **Envision Makerspace:** [https://jacobsschool.ucsd.edu/envision](https://jacobsschool.ucsd.edu/envision)
   - EnVision is located on the 3rd floor of the SME building, rooms 301 - 306
   - We are open M-F, 9a - 8p and Sat/Sun, 12p - 4p
