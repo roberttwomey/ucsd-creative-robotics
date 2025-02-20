@@ -1,9 +1,10 @@
 # VIS 87 / MAE 87: Creative Robotics: Engineering Expression
 [Schedule](#schedule) | [Description](#description) | [Resources](#resources) | [Grading](#grading) | [Policies](#policies) | [References](#references)
 
-<!--
-![Image](digifab_image_2021.png)
-*Clockwise from top left: [Ken Rinaldo - Mediated Encounters](https://www.kenrinaldo.com/portfolio/mediated-encounters/); [MIT Mediated Matter Group - Silk Pavillion](https://www.media.mit.edu/projects/silk-pavilion/overview/); [Morehshin Allahyari - Material Spectulation](http://www.morehshin.com/material-speculation-isis/); [Quayola - Carvings](https://www.cnn.com/style/article/davide-quayola-laocoon-robot-sculpture-smart-creativity/index.html); [David Bowen - Space Junk](https://www.dwbowen.com/spacejunk); [James Loh - Amae Apparatus](https://process.jonas-loh.com/post/7800652708/intimateethnography-title-amae-apparatus)*-->
+
+![Image](assets/creative-robotics-image.jpg)
+
+*Clockwise from top left: [Edward Ihnatowicz, Senster (1970)](https://evoluon.dse.nl/senster-e.htm); [Perry Nightingale from WPP with Boston Dynamics Spot, Adobe Max (2023)](https://www.adobe.com/max/2023/sessions/na-dancing-robots-and-generative-ai-the-future-of-s6151.html?linkId=100000254219236); [Moritz Bächer and Disney Research Zurich, Bipedal WALL-E Robot (2023)](https://www.youtube.com/watch?v=-cfIm06tcfA)*
 
 # Description
 
