@@ -148,18 +148,20 @@ This public acknowledgment serves to honor and respect Indigenous peoples and th
 - ECE Makerspace [https://ece.ucsd.edu/makerspace](https://ece.ucsd.edu/makerspace)
 
 ## 3D Modeling Software
-- [onshape](https://www.onshape.com/en/) (browser) [https://www.onshape.com/en/](https://www.onshape.com/en/)
-- [fusion360](https://www.autodesk.com/products/fusion-360/](https://www.autodesk.com/products/fusion-360/) (mac, windows)
+- [onshape](https://www.onshape.com/en/) (browser)
+- [fusion360](https://www.autodesk.com/products/fusion-360/) (mac, windows)
 - [shapr3d](https://www.shapr3d.com/) (iPad, mac, windows)
 - [nomad sculpt](https://nomadsculpt.com/) (iPad, android)
 - [tinkercad](https://www.tinkercad.com/3d-design) (browser)
 
 ## Fabrication Equipment
-- [Prusa printers](https://www.prusa3d.com/category/original-prusa-i3-mk3s/)
-- [Ultimaker](https://ultimaker.com/software/ultimaker-cura/)
+- [Prusa printers](https://www.prusa3d.com/category/original-prusa-i3-mk3s/) (DIB, Envision)
+- [Ultimaker](https://ultimaker.com/software/ultimaker-cura/) (DIB??)
 - Muse Laser Cutter (Envision)
 - Universal Laser Cutter (DIB)
 - Fablight (DIB)
+- CNC Router (DIB)
+- CNC Mill and Metal Shop (DIB)
 
 ## Materials
 - [Where to get Materials](references/materials.md)
