@@ -20,6 +20,7 @@ In this hands-on seminar we will explore the connection between art and engineer
 - **Location:** [SME](https://map.concept3d.com/?id=1005#!ct/18312,63891,65653?s/SME_Main) 302 (Classroom opposite Envision Maker Space)
 - **Office Hours:**
   - off weeks (1, 3, 6, 8) (Envision)
+- **Canvas:** [TK]
 
 ## Course objectives
 Students who complete the course will:
@@ -29,39 +30,6 @@ Students who complete the course will:
 - Be able to think critically about human-robot interaction and issues of representation in robot design.
 
 **Prequisites:** None.
-
-# Resources
-- **Canvas:** [TK]
-
-## Fabrication Facilities
-- **Envision Makerspace:** [https://jacobsschool.ucsd.edu/envision](https://jacobsschool.ucsd.edu/envision)
-  - EnVision is located on the 3rd floor of the SME building, rooms 301 - 306
-  - We are open M-F, 9a - 8p and Sat/Sun, 12p - 4p
-- **DIB Makerspace** (Design Innovation Building) [https://makerspace.ucsd.edu/](https://makerspace.ucsd.edu/)
-- Craft Center [https://craftcenter.ucsd.edu/](https://craftcenter.ucsd.edu/)
-- Undergraduate Wood and Metal Shop (Mandeville) [https://visarts.ucsd.edu/facilities/undergrad.html#Shops](https://visarts.ucsd.edu/facilities/undergrad.html#Shops)
-- ECE Makerspace [https://ece.ucsd.edu/makerspace](https://ece.ucsd.edu/makerspace)
-
-## 3D Modeling Software
-- [onshape](https://www.onshape.com/en/) (browser) [https://www.onshape.com/en/](https://www.onshape.com/en/)
-- [fusion360](https://www.autodesk.com/products/fusion-360/](https://www.autodesk.com/products/fusion-360/) (mac, windows)
-- [shapr3d](https://www.shapr3d.com/) (iPad, mac, windows)
-- [nomad sculpt](https://nomadsculpt.com/) (iPad, android)
-- [tinkercad](https://www.tinkercad.com/3d-design) (browser)
-
-## Fabrication Equipment
-- [Prusa printers](https://www.prusa3d.com/category/original-prusa-i3-mk3s/)
-- [Ultimaker](https://ultimaker.com/software/ultimaker-cura/)
-- Muse Laser Cutter (Envision)
-- Universal Laser Cutter (DIB)
-- Fablight (DIB)
-
-## Materials
-- [Where to get Materials](references/materials.md)
-
-# Tutorials
-- [Rhino Quickstart](references/rhino3d.md)
-- [Laser Cutting Guide](references/laser-cutting.md)
 
 # Schedule
 (Subject to change. Check back for most up to date information)
@@ -74,6 +42,16 @@ Students who complete the course will:
 | 7 | **Working Session** <br> - Time and support for building and testing Avatar <br> - **HW** Complete your avatar for week 9 presentations |
 | 9 | **Presentation Party** <br> - Teddy bears' coming out picnic <br> - **HW** Final documentation submission |
 | Finals | **Submit Documentation** |
+
+# Tutorials
+## Class-specific tutorials
+- [Getting Started with the Envision Dev Board](tutorials/getting-started-dev-board.md)
+- [Hands-On with Mechanical Movement](tutorials/gears-and-mechanisms.md)
+- [Sensors with the Dev Board](tutorials/dev-board-sensors.md)
+- [Actuators with the Dev Board](tutorials/dev-board-actuators.md)
+## General Tutorials
+- [Rhino Quickstart](tutorials/rhino3d.md)
+- [Laser Cutting Guide](tutorials/laser-cutting.md)
 
 # Grading
 
@@ -157,6 +135,34 @@ Students are responsible for knowing the university academic policies and resour
 # Land Acknowledgment
 
 This public acknowledgment serves to honor and respect Indigenous peoples and their land on which our campus resides. UC San Diego was built upon the territory of the Kumeyaay Nation. From time immemorial, the Kumeyaay people have been a part of this land. Today, the Kumeyaay people continue to maintain their political sovereignty and cultural traditions as vital members of the San Diego community.
+
+# Resources
+
+## Fabrication Facilities
+- **Envision Makerspace:** [https://jacobsschool.ucsd.edu/envision](https://jacobsschool.ucsd.edu/envision)
+  - EnVision is located on the 3rd floor of the SME building, rooms 301 - 306
+  - We are open M-F, 9a - 8p and Sat/Sun, 12p - 4p
+- **DIB Makerspace** (Design Innovation Building) [https://makerspace.ucsd.edu/](https://makerspace.ucsd.edu/)
+- Craft Center [https://craftcenter.ucsd.edu/](https://craftcenter.ucsd.edu/)
+- Undergraduate Wood and Metal Shop (Mandeville) [https://visarts.ucsd.edu/facilities/undergrad.html#Shops](https://visarts.ucsd.edu/facilities/undergrad.html#Shops)
+- ECE Makerspace [https://ece.ucsd.edu/makerspace](https://ece.ucsd.edu/makerspace)
+
+## 3D Modeling Software
+- [onshape](https://www.onshape.com/en/) (browser) [https://www.onshape.com/en/](https://www.onshape.com/en/)
+- [fusion360](https://www.autodesk.com/products/fusion-360/](https://www.autodesk.com/products/fusion-360/) (mac, windows)
+- [shapr3d](https://www.shapr3d.com/) (iPad, mac, windows)
+- [nomad sculpt](https://nomadsculpt.com/) (iPad, android)
+- [tinkercad](https://www.tinkercad.com/3d-design) (browser)
+
+## Fabrication Equipment
+- [Prusa printers](https://www.prusa3d.com/category/original-prusa-i3-mk3s/)
+- [Ultimaker](https://ultimaker.com/software/ultimaker-cura/)
+- Muse Laser Cutter (Envision)
+- Universal Laser Cutter (DIB)
+- Fablight (DIB)
+
+## Materials
+- [Where to get Materials](references/materials.md)
 
 # References
 
