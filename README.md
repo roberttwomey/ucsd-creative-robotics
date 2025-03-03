@@ -32,20 +32,36 @@ Students who complete the course will:
 
 # Resources
 - **Canvas:** [TK]
-- **Discord:** check canvas
-- **[Rhino 3d](https://www.rhino3d.com/)**
+
+## Fabrication Facilities
 - **Envision Makerspace:** [https://jacobsschool.ucsd.edu/envision](https://jacobsschool.ucsd.edu/envision)
   - EnVision is located on the 3rd floor of the SME building, rooms 301 - 306
   - We are open M-F, 9a - 8p and Sat/Sun, 12p - 4p
-- Design Innovation Building (DIB) Makerspace [https://makerspace.ucsd.edu/](https://makerspace.ucsd.edu/)
-- [Ultimaker](https://ultimaker.com/software/ultimaker-cura/)
-- [Prusa MK3S+](https://www.prusa3d.com/category/original-prusa-i3-mk3s/)
-- Muse laser engraver
+- **DIB Makerspace** (Design Innovation Building) [https://makerspace.ucsd.edu/](https://makerspace.ucsd.edu/)
+- Craft Center [https://craftcenter.ucsd.edu/](https://craftcenter.ucsd.edu/)
+- Undergraduate Wood and Metal Shop (Mandeville) [https://visarts.ucsd.edu/facilities/undergrad.html#Shops](https://visarts.ucsd.edu/facilities/undergrad.html#Shops)
+- ECE Makerspace [https://ece.ucsd.edu/makerspace](https://ece.ucsd.edu/makerspace)
 
-# Reference
+## 3D Modeling Software
+- [onshape](https://www.onshape.com/en/) (browser) [https://www.onshape.com/en/](https://www.onshape.com/en/)
+- [fusion360](https://www.autodesk.com/products/fusion-360/](https://www.autodesk.com/products/fusion-360/) (mac, windows)
+- [shapr3d](https://www.shapr3d.com/) (iPad, mac, windows)
+- [nomad sculpt](https://nomadsculpt.com/) (iPad, android)
+- [tinkercad](https://www.tinkercad.com/3d-design) (browser)
+
+## Fabrication Equipment
+- [Prusa printers](https://www.prusa3d.com/category/original-prusa-i3-mk3s/)
+- [Ultimaker](https://ultimaker.com/software/ultimaker-cura/)
+- Muse Laser Cutter (Envision)
+- Universal Laser Cutter (DIB)
+- Fablight (DIB)
+
+## Materials
+- [Where to get Materials](references/materials.md)
+
+# Tutorials
 - [Rhino Quickstart](references/rhino3d.md)
 - [Laser Cutting Guide](references/laser-cutting.md)
-- [Where to get Materials](references/materials.md)
 
 # Schedule
 (Subject to change. Check back for most up to date information)
@@ -142,3 +158,6 @@ Students are responsible for knowing the university academic policies and resour
 
 This public acknowledgment serves to honor and respect Indigenous peoples and their land on which our campus resides. UC San Diego was built upon the territory of the Kumeyaay Nation. From time immemorial, the Kumeyaay people have been a part of this land. Today, the Kumeyaay people continue to maintain their political sovereignty and cultural traditions as vital members of the San Diego community.
 
+# References
+
+[TK]
