@@ -16,6 +16,7 @@ In this hands-on seminar we will explore the connection between art and engineer
   - Dr. Jennifer Mullin, Department of Mechanical and Aerospace Engineering
   - Dr. Robert Twomey, Department of Visual Arts
 - **Class:** Wednesday 1-3pm
+  - 8-10 hours total for the quarter
   - (meets weeks 2, 4, 5, 7, 9)
 - **Location:** [SME](https://map.concept3d.com/?id=1005#!ct/18312,63891,65653?s/SME_Main) 302 (Classroom opposite Envision Maker Space)
 - **Office Hours:**
@@ -56,11 +57,9 @@ Students who complete the course will:
 # Grading
 
 ## Graded activities
-[TK Subject to Revision]
-- 40% Exercises – approximately 8 weekly exercises
-- 45% Projects – 3 total at approximately 15% each
-- 10% Digital Sketchbook - cumulative
-- 5% Participation
+- 50% - Attendance and participation (4 out of 5 sessions) - Failure is missing more than 1 unexcused abasence.
+- 40% - Homework -  satisfactory completion of all homework assignments. 
+- 10% - Final Presentation and Submission - present your functional avatar (Week 9) and getting critique
 
 Work will be evaluated on the quality of concept, the degree of experimentation (both aesthetic and technical), and final realization (again, aesthetic and technical). Prompts and rubrics will be provided with more specific details regarding each assignment and breakdowns
 
@@ -83,6 +82,9 @@ __*Participation*__
 Contributions to class discussions and active participation in small group work are essential to both the momentum of the course and the development of your ideas. This requires that you come to class prepared (having completed assigned reading and writing) and ready to participate in class activities. This course is based on project-based learning and you are expected to contribute as a responsible member of the community. See the participation evaluation in the Grading Scale below for more information.
 
 ## Grading Scale
+
+Pass / No Pass (a passing grade is C and above — 70%)
+
 A+ = 97-100 | A = 94-97 | A- = 90-94 <br>
 B+ = 87-90 | B = 84-87 | B- = 80-84 <br>
 C+ = 77-80 | C = 74-77 | C- = 70-74 <br>
