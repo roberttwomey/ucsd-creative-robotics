@@ -21,7 +21,7 @@ Another use of Pulse Width Modulation is driving the position of a servo motor.
 
 ![Image](https://www.arduino.cc/wiki/static/dcca996e7af6025b856c4907c3ffa235/01e7c/sweep_schem.png)
 
-https://www.arduino.cc/en/Tutorial/LibraryExamples/Sweep
+[https://www.arduino.cc/en/Tutorial/LibraryExamples/Sweep](https://www.arduino.cc/en/Tutorial/LibraryExamples/Sweep)
 
 - How to read a schematic
 - Pulse Width Modulation
