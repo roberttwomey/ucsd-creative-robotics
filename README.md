@@ -1,4 +1,4 @@
-# _Creative Robotics_ - VIS 147B: Electronic Technologies for Art II - Winter 2026
+# _Creative Robotics_ <br>VIS 147B: Electronic Technologies for Art II - Winter 2026
 
 [Schedule](#schedule) | [Description](#description) | [Tutorials](#tutorials) | [Grading](#grading) | [Policies](#policies) | [Resources](#resources) | [References](#references)
 
@@ -27,8 +27,8 @@ Email: [jmullin@ucsd.edu](mailto:jmullin@ucsd.edu)
 
 - **Class:** Tuesdays, 12:30 – 3:20 p.m.
 - **Location:** [SME](https://map.concept3d.com/?id=1005#!ct/18312,63891,65653?s/SME_Main) 302 (Classroom opposite Envision Maker Space)
-- **Office Hours:**
-- TBD likely Wednesdays, 11:00 – 12:00 p.m. in SME 302
+- **Office Hours:** - TBD likely Wednesdays, 11:00 – 12:00 p.m. in SME 302
+- **Discussion Section** - (optional) Thursdays 1-1:50pm.
 - **Canvas:** [TK]
 
 
@@ -55,11 +55,11 @@ Students who complete the course will:
 
 | Week | Topic |
 |------|-------|
-| 1 | **[Intro, Review, and Meaningful Signals](sessions/week1.md)** Course Policies and setup; Review Exercises; Assign HW1 |
-| 2 | **[Making Things Move](sessions/week2.md)** Analog Input/Output; Assign HW2 |
-| 3 | **[Sensors and Sensations](sessions/week3.md)** Advanced Sensors; Project 1 Work Time|
+| 1 | **[Intro, Overview, and Imagination Board](sessions/week1.md)** Overview of Course & Policies; Art and Engineering, Creative Robotics; Imagination Board and Setup; Assign Reading 1; Assign HW1 |
+| 2 | **[Making Things Move](sessions/week2.md)** Analog Input/Output; Assign HW2; Expressive Behavior, Robotic Surrogates, and Portraiture; Assign Project 1|
+| 3 | **[Sensors and Sensations](sessions/week3.md)** Sensors; Cybernetics and Control Systems; Project 1 Work Time; Assign HW 3; Assign Reading 2 - Braitenberg|
 | 4 | **[Imagination Board](sessions/week4.md)** Project 1 Critique; Intro to Imagination Board|
-| 5 | **[Spooky Action at a Distance](sessions/week5.md)** Remote Sensing; Remote Control; Transistors, Solenoids, and External Power |
+| 5 | **[Spooky Action at a Distance](sessions/week5.md)** Critique Project 1;Remote Sensing; Remote Control; Transistors, Solenoids, and External Power |
 | 6 | **[Networks](sessions/week6.md)** Networked Arduino; Distributed Sensors; |
 | 7 | **[Responsive Environments](sessions/week7.md)** <br> Situated Computing; Smart Objects; Ubiquitous Computing; Networked Free-for-All with MQTT |
 | 8 | **[Once More with Feeling(s)](sessions/week8.md)** Final Project Ideation and Workshopping; [Project 2](projects/project2.md)|
