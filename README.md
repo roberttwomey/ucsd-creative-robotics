@@ -1,6 +1,6 @@
-# VIS 87 / MAE 87: Creative Robotics: Engineering Expression
-[Schedule](#schedule) | [Description](#description) | [Tutorials](#tutorials) | [Grading](#grading) | [Policies](#policies) | [Resources](#resources) | [References](#references)
+# VIS 147B: Electronic Technologies for Art II _Creative Robotics_ - Winter 2026
 
+[Schedule](#schedule) | [Description](#description) | [Tutorials](#tutorials) | [Grading](#grading) | [Policies](#policies) | [Resources](#resources) | [References](#references)
 
 ![Image](assets/creative-robotics-image.jpg)
 
@@ -8,39 +8,67 @@
 
 # Description
 
-In this hands-on seminar we will explore the connection between art and engineering. We will apply the fundamental topics and skills covered in this seminar to create interactive robotic avatars. Topics include the development of expressive behavior through visual design and mechanical motion, character design and fabrication, and the use of a microcontroller, sensors and actuators. We will use a design process to guide the avatar development from a concept to a functional robotic sculpture.
+A continuation of the electronics curriculum. Design of programmable microcontroller systems for creating artworks that are able to respond to complex sets of input conditions, perform algorithmic and procedural processing, and generate real time output. Program or materials fees may apply. Purchase of components kit required. Two production-course limitation.
 
-## Details
+For Winter 2026 this course will focus on design and development of mechatronic systems that demonstrates expressive behavior, using *programmable microcontrollers, sensors and actuators. Topics include the development of expressive behavior through visual design and mechanical motion, robotics, character design and modelling techniques (2d sketch, 3d digital and physical models).
+
+For Winter 2026 this course will be taught in parallel with Prof. Mullins' MAE 190. This collaboration is intinded to offer engineers and visual arts students an opportunity to learn from both disciplines. 
+
+# Details
 
 - **Instructors:**
-  - Dr. Jennifer Mullin, Department of Mechanical and Aerospace Engineering
-  - Dr. Robert Twomey, Department of Visual Arts
-- **Class:** Wednesday 1-3pm
-  - 8-10 hours total for the quarter
-  - (meets weeks 2, 4, 5, 7, 9)
+
+Professor Robert Twomey - Instructor of Record for VIS 147B
+Department of Visual Arts
+Email: rtwomey@ucsd.edu
+
+Professor Jennifer Mullin - Instructor of Record for MAE 190
+Department of Mechanical and Aerospace Engineering 
+Email: jmullin@ucsd.edu
+
+- **Class:** Tuesdays, 12:30 – 3:20 p.m.
 - **Location:** [SME](https://map.concept3d.com/?id=1005#!ct/18312,63891,65653?s/SME_Main) 302 (Classroom opposite Envision Maker Space)
 - **Office Hours:**
-  - off weeks (1, 3, 6, 8) (Envision)
+- TBD likely Wednesdays, 11:00 – 12:00 p.m. in SME 302
 - **Canvas:** [TK]
 
 
+**Prequisites:** None.
+
 # Course Materials and Tools
 
-Textbook: There is no textbook required for this course. We will upload lecture materials, notes and resource materials to Canvas.
+**Textbook**: There is no textbook required for this course. We will upload lecture materials, notes and resource materials to Canvas.
 
-Technology requirement: a computer and/or a tablet, or smartphone that can run educational apps are recommended for this seminar.
+**Technology requirement**: a computer and/or a tablet, or smartphone that can run educational apps are recommended for this seminar.
+
+**Required Hardware**: Students are asked to purchase/provide the ESP32 Dev Board along with other basic electronic components used throughout this course including the final project. The complete list is available here: [Material List](https://docs.google.com/document/d/16meO_fiGe-2IXtZatGv2IwkkCf8VM45hPuA-N4YwOOE/edit?usp=sharing)
 
 ## Course objectives
 Students who complete the course will:
--	Gain a working understanding of mechanics, linkages, and mechanical automata.
--	Develop facility with digital fabrication, hand craft, and mechatronic automation.
--	Develop a conceptual understanding of control systems, cybernetics, and expressivity in robot design.
-- Be able to think critically about human-robot interaction and issues of representation in robot design.
+-	Apply a working understanding of foundational mechanical, electrical and control systems that are associated with interactive visual arts and robotic applications.
+-	Develop a conceptual design, digital representation, and a functioning physical mechatronic model through the use of a variety of digital and physical fabrication resources.
+-	Demonstrate a conceptual understanding of control systems, cybernetics, and expressivity in robot design.
+- Be able to think critically about visual design, human-robot interaction and issues of representation in robot design.
 
-**Prequisites:** None.
 
 # Schedule
 (Subject to change. Check back for most up to date information)
+
+| Week | Topic |
+|------|-------|
+| 1 | **[Intro, Review, and Meaningful Signals](sessions/week1.md)** Course Policies and setup; Review Exercises; Assign HW1 |
+| 2 | **[Making Things Move](sessions/week2.md)** Analog Input/Output; Assign HW2 |
+| 3 | **[Sensors and Sensations](sessions/week3.md)** Advanced Sensors; Project 1 Work Time|
+| 4 | **[Imagination Board](sessions/week4.md)** Project 1 Critique; Intro to Imagination Board|
+| 5 | **[Spooky Action at a Distance](sessions/week5.md)** Remote Sensing; Remote Control; Transistors, Solenoids, and External Power |
+| 6 | **[Networks](sessions/week6.md)** Networked Arduino; Distributed Sensors; |
+| 7 | **[Responsive Environments](sessions/week7.md)** <br> Situated Computing; Smart Objects; Ubiquitous Computing; Networked Free-for-All with MQTT |
+| 8 | **[Once More with Feeling(s)](sessions/week8.md)** Final Project Ideation and Workshopping; [Project 2](projects/project2.md)|
+| 9 | **Final Project Work Time** In class work on Project 2 |
+| 10 | **Work Time and Working Critique** |
+| Finals | **Submit Documentation** |
+
+FYS Schedule
 
 | Week | Topic |
 |------|-------|
@@ -51,60 +79,77 @@ Students who complete the course will:
 | 9 | **Presentation Party** <br> - Teddy bears' coming out picnic <br> - **HW** Final documentation submission |
 | Finals | **Submit Documentation** |
 
-# Tutorials
-## Class-specific tutorials
-- [Getting Started with the Envision Dev Board](tutorials/getting-started-dev-board.md)
-- [Hands-On with Mechanical Movement](tutorials/gears-and-mechanisms.md)
-- [Sensors with the Dev Board](tutorials/dev-board-sensors.md)
-- [Actuators with the Dev Board](tutorials/dev-board-actuators.md)
-## General Tutorials
-- [Rhino Quickstart](tutorials/rhino3d.md)
-- [Laser Cutting Guide](tutorials/laser-cutting.md)
-
 # Grading
 
-This course provides a hands-on introduction to visual design, mechanical design, electronics, and fabrication. No prior experience in these skills is required. Students will have opportunities to develop and apply their technical and artistic skills through in-class activities and the avatar project.
+Work will be evaluated on the quality of concept, the degree of experimentation (both aesthetic and technical), and final realization (again, aesthetic and technical). Prompts and rubrics will be provided with more specific details regarding each assignment and breakdowns
 
-Work will be evaluated on the quality of concept, the degree of experimentation (both aesthetic and technical), and final realization (again, aesthetic and technical). Prompts and rubrics will be provided with more specific details regarding each assignment.
+Final grades are determined using the following grade breakdown:
 
-Grading in this course is Pass/Fail. Final grades are determined using the following grade breakdown:
+## Graded Activities
+- 35% Exercises – approximately 6 weekly exercises
+- 45% Projects – 3 total at approximately 15% each
+- 10% Digital Sketchbook - cumulative
+- 10% Participation
 
-## Graded activities
-- 50% - Attendance and participation (4 out of 5 sessions) - Failure is missing more than 1 unexcused abasence.
-- 40% - Homework -  satisfactory completion of all homework assignments. 
-- 10% - Final Presentation and Submission - present your functional avatar (Week 9) and getting critique
+## Grading Scale
+A+ = 97-100 | A = 93-97 | A- = 90-93 <br>
+B+ = 87-90 | B = 83-87 | B- = 80-83 <br>
+C+ = 77-80 | C = 73-77 | C- = 70-73 <br>
+F = below 60%<br>
+
+(In keeping with the UCSD Visual Arts grading scale, any grade below C- is considered a failing grade.)
+
+
+## Grading Details
+
+Work will be evaluated on the _quality of concept_, the _degree of experimentation_ (aesthetic and technical), and the _final realization_ (again, aesthetic and technical). The follow describes the kind of effort that would earn you each grade.
+
+**A – Excellent**
+Excellent projects present _clear, original, and compelling_ concepts. They demonstrate _strong experimentation_—pushing both aesthetic and technical boundaries—and result in a _highly resolved, polished final work_. The project reflects a deep engagement with the assignment prompt and an ambitious creative vision. You’ve thoughtfully integrated feedback and shown critical awareness of your process and outcome.
+
+**B – Good**
+Good projects present _well-developed_ and _thoughtful concepts_. They show _solid experimentation_ with some risks taken, and result in a _well-executed and coherent final work_. The project meets all requirements and demonstrates care and understanding in both craft and presentation. Feedback has been applied effectively, though not always extensively.
+
+**C – Satisfactory**
+Satisfactory projects present _clear but limited concepts_. Experimentation is present but _conventional or uneven_, and the final realization may feel _incomplete or underdeveloped_. The work meets basic requirements but lacks depth, polish, or full engagement with the creative potential of the assignment. Feedback may not have been fully addressed.
+
+**F – Failing**
+Failing projects show _minimal concept development_, _little to no experimentation_, and _poor or incomplete realization_. The work may not meet assignment requirements, demonstrate technical competence, or communicate a clear idea. It reflects a lack of engagement with the project’s creative and developmental process.
 
 # Policies
 
 Course-specific policies and rules.
 
-| [Attendance](#attendance) |	[Late Work](#late-work)	| [Academic Integrity](#academic-integrity) | [Other People’s Code](#other-peoples-code) | [UCSD Course Policies and Resources](#ucsd-course-policies-and-resources) |
+| [Attendance](#attendance) |	[Late Work](#late-work)	| [Academic Integrity](#academic-integrity) | [Other People’s Code](#other-peoples-code) | [Accommodations](#students-with-disabilities) | [UCSD Course Policies and Resources](#ucsd-course-policies-and-resources) |
+
+## ICAM Policies
+File naming conventions and submissions. More [TK].
 
 ## Attendance
-On-time attendance and active participation are required for the five scheduled sessions. Class will meet in person on week 2 (4/9), week 4 (4/23), week 5 (4/30), week 7 (5/14), and week 9 (5/28). If you are not able to attend a session, please contact the instructors directly and in advance. **A failing grade will be assigned for two or more unexcused absences.**
+On-time attendance is required as well as work inside and outside of section. Please notify your instructor in advance if you must be absent for illness or family emergency. Any absences must be cleared with the instructor, or justified with written documentation (e.g. letter from team, etc.). We do not differentiate between mental and physical health and in either case please be in communication for when you need to take a day off. **After a student misses a week’s worth of classes each subsequent missed class will result in the reduction of the final grade by a full letter grade (i.e., A to B, B- to C-).** Excessive tardiness or leaving early will also impact your grade and will follow the same rubric.
 
-Contributions to class discussions and active participation in small group work are essential to both the momentum of the course and the development of your ideas. This requires that you come to class prepared (having completed assigned reading and writing) and ready to participate in class activities. This course is based on project-based learning, and you are expected to contribute as a responsible member of the community.
+On-time attendance is required. Lateness or leaving early, when not cleared with the instructor, will also impact your participation grade. Lateness will be counted as 80% for your participation grade for the day.
 
-No makeup will be given for missed class activities due to unexcused absence or tardiness to class. Please provide supportive documents (such as a doctor's letter if absence is due to a medical emergency) to support the makeup request.
+## Late Work 
+**Late Work Grading Policy**. Late work will be docked 5% for each day they are late (if an assignment is two days late, the grade will be docked 10%). An assignment submitted after the due date time on the due date will still be docked 5%. The lowest possible grade for late work is 70%, which means that for an assignment submitted more than 6 days late, no more than 30% will be docked, but the maximum grade you will receive is 70%. Details about submission format and due date are given in Canvas. 
 
-## Sick/Illness Policy
-If you are feeling sick, please take proper precautions and follow all university policies and guidelines, which can be found [here](https://blink.ucsd.edu/safety/resources/public-health/index.html). Please notify the instructors if you will be missing a class or section due to illness.  **For an excused absence, you will be asked by your instructor to provide documentation.** This is due to the hands-on, interactive and collaborative nature of this course, where your active in-person participation is required for you to be successful.
+**Excused Late Work**. Requests to submit late work for special circumstances must be approved by your instructor at least 24 hours before the due date and time. Any late requests made less than 24 hours before the assignment is due may still be subject to a lateness penalty. We do not distinguish between mental and physical health. **Email your instructor, 24 hours in advance, explaining generally the reason you are missing class and your plans for making up any missed lecture, activity, and assignment**. 
 
-## General Assignments
+An assignment may receive an F if a student does not participate in every phase of the development of the project and meet all deadlines for preliminary materials (proposals, drafts, etc.).  Failure to submit any of the graded course assignments is grounds for failure in the course.  
 
-Assignments are posted on the Canvas course site with essential details and due dates. If something doesn’t look right and/or you have questions, please ask the instructors.
-
-## Late Work
-Students are expected to complete all assignments on time. Assignments are due in class and via online submission, as specified in assignment descriptions.
-
-If an assignment is not submitted in class on the date due, it will be considered late and will lose one 5% for each day or part of a day past the due date. Any late submissions must be approved by your instructors well in advance of the due date.
-
-## Academic Integrity 
+## Academic Integrity
 Integrity of scholarship is essential for an academic community. The University expects that both faculty and students will honor this principle and in so doing protect the validity of University intellectual work. For students, this means that all academic work will be done by the individual to whom it is assigned, without unauthorized aid of any kind. [http://senate.ucsd.edu/Operating-Procedures/Senate-Manual/Appendices/2](http://senate.ucsd.edu/Operating-Procedures/Senate-Manual/Appendices/2)
 
-### Other People's Code
+Academic Integrity is expected of everyone at UC San Diego. This means that you must be honest, fair, responsible, respectful, and trustworthy in all of your actions. Lying, cheating, or any other forms of dishonesty will not be tolerated because they undermine learning and the University’s ability to certify students’ knowledge and abilities. Thus, any attempt to get, or help another get, a grade by cheating, lying or dishonesty will be reported to the Academic Integrity Office and will result in sanctions. **_Sanctions can include an F in the class and suspension or dismissal from the University._** So, think carefully before you act. Before you act, ask yourself the following questions: a: is my action honest, fair, respectful, responsible, and trustworthy, and b) is my action authorized by the instructor? If you are unsure, don’t ask a friend, ask your instructor, instructional assistant, or the Academic Integrity Office. You can learn more about academic integrity at academicintegrity.ucsd.edu.
 
-We will use many open source resources to make our work. It is ok to use others’ code, or their 3d models. However, **you need to cite your sources**, and **you need to do transformative work/make it your own**.
+(Source: Bertram Gallant, T. (2017). Teaching for integrity. UC San Diego Academic Integrity Office.)
+
+
+## Other People’s Code
+**If you use a piece of code from the p5 reference or another piece of publicly available code, you must cite your use of it at the top of your code file as a comment**. Include a link to the original code file, the author, and the date. 
+
+**This includes generated code**. You are allowed to use LLMs, [TritonGPT](https://blink.ucsd.edu/technology/ai/tritongpt/index.html), other Generative AI tools as part of your coding process, however **you must disclose this usage**. Add comments in your code indicating which parts were generated, and how you asked the system to help.
+
 
 ## Students with Disabilities
 
@@ -116,44 +161,6 @@ Please, if possible, send your OSD accommodations letter to your instructor befo
 
 858.534.4382 | [osd@ucsd.edu](mailto:osd@ucsd.edu) | [https://disabilities.ucsd.edu/](https://disabilities.ucsd.edu/)
 
-## Grading Scale
-
-Pass / No Pass (a passing grade is C and above — 70%)
-
-Here is a description of the kind of participation in the course that would earn you an A, B, C, etc. Your instructor may use pluses and minuses to reflect your participation more fairly, but this is a general description for each letter grade.
-
-**A - Excellent**
-
-Excellent participation is marked by near-perfect attendance and rigorous preparation for class work. You respond to questions and activities with enthusiasm and insight, and you listen and respond thoughtfully to your peers. You submit assignments on time, adhering to posted requirements, and demonstrate a thorough engagement with the assignment. You respond creatively to any feedback you receive (from both your peers and instructor). You are an active contributor to the classroom community.
-
-**B - Good**
-
-Good participation is marked by near-perfect attendance and thorough preparation for class. You respond to questions with specificity and make active contributions to class. You submit assignments on time and demonstrate a thorough engagement with the assignment. You respond effectively to the feedback you receive (from both your peers and instructor). You are a regular and reliable contributor to the classroom community.
-
-**C - Satisfactory**
-
-Satisfactory participation is marked by regular attendance and preparation for class. You respond to questions when prompted and participate in classroom activities, though you may sometimes be distracted. You are present in class, with few absences, and have done some of the work some of the time. You submit assignments and make some efforts toward revision proposals and final submission. You are involved in classroom activities, but you offer minimal feedback, and you may not always contribute fully to classroom community.
-
-**F - Failing**
-
-Failing participation is marked by excessive absences, a habitual lack of preparation, and failure to engage in classroom activities and development processes.
-
-Final grades will be given based on the scale (below) at the instructor’s discretion.
-
-| Letter Grade | Grade Points | Pass/Fail |
-|-----|-----|-----|
-| A | 90 to 100 | P |
-| B | 80 to 89 | P |
-| C | 70 to 79 | P |
-| D | 60 to 69 | F | 
-| F | 59 or olower | F |
-
-## Academic Integrity
-
-Academic Integrity is expected of everyone at UC San Diego. This means that you must be honest, fair, responsible, respectful, and trustworthy in all of your actions. Lying, cheating, or any other forms of dishonesty will not be tolerated because they undermine learning and the University’s ability to certify students’ knowledge and abilities. Thus, any attempt to get, or help another get, a grade by cheating, lying or dishonesty will be reported to the Academic Integrity Office and will result in sanctions. **_Sanctions can include an F in the class and suspension or dismissal from the University._** So, think carefully before you act. Before you act, ask yourself the following questions: a: is my action honest, fair, respectful, responsible, and trustworthy, and b) is my action authorized by the instructor? If you are unsure, don’t ask a friend, ask your instructor, instructional assistant, or the Academic Integrity Office. You can learn more about academic integrity at academicintegrity.ucsd.edu.
-
-(Source: Bertram Gallant, T. (2017). Teaching for integrity. UC San Diego Academic Integrity Office.)
-
 ## UCSD Course Policies and Resources
 
 Students are responsible for knowing the university academic policies and resources found on [this page](https://catalog.ucsd.edu/academic-regulations.html):
@@ -164,6 +171,16 @@ Students are responsible for knowing the university academic policies and resour
 ## Land Acknowledgment
 
 This public acknowledgment serves to honor and respect Indigenous peoples and their land on which our campus resides. UC San Diego was built upon the territory of the Kumeyaay Nation. From time immemorial, the Kumeyaay people have been a part of this land. Today, the Kumeyaay people continue to maintain their political sovereignty and cultural traditions as vital members of the San Diego community.
+
+# Tutorials
+## Class-specific tutorials
+- [Getting Started with the Envision Dev Board](tutorials/getting-started-dev-board.md)
+- [Hands-On with Mechanical Movement](tutorials/gears-and-mechanisms.md)
+- [Sensors with the Dev Board](tutorials/dev-board-sensors.md)
+- [Actuators with the Dev Board](tutorials/dev-board-actuators.md)
+## General Tutorials
+- [Rhino Quickstart](tutorials/rhino3d.md)
+- [Laser Cutting Guide](tutorials/laser-cutting.md)
 
 # Resources
 
@@ -194,6 +211,8 @@ This public acknowledgment serves to honor and respect Indigenous peoples and th
 
 ## Materials
 - [Where to get Materials](references/materials.md)
+- Students are asked to purchase/provide the ESP32 Dev Board along with other basic electronic components used throughout this course including the final project. 
+- The complete list is available here: [Material List](https://docs.google.com/document/d/16meO_fiGe-2IXtZatGv2IwkkCf8VM45hPuA-N4YwOOE/edit?usp=sharing)
 
 # References
 
