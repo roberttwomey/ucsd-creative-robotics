@@ -1,4 +1,4 @@
-# VIS 147B: Electronic Technologies for Art II _Creative Robotics_ - Winter 2026
+# _Creative Robotics_ - VIS 147B: Electronic Technologies for Art II - Winter 2026
 
 [Schedule](#schedule) | [Description](#description) | [Tutorials](#tutorials) | [Grading](#grading) | [Policies](#policies) | [Resources](#resources) | [References](#references)
 
@@ -14,17 +14,16 @@ For Winter 2026 this course will focus on design and development of mechatronic 
 
 For Winter 2026 this course will be taught in parallel with Prof. Mullins' MAE 190. This collaboration is intinded to offer engineers and visual arts students an opportunity to learn from both disciplines. 
 
-# Details
+## Instructors
+Professor Robert Twomey - Instructor of Record for VIS 147B<br>
+Department of Visual Arts<br>
+Email: [rtwomey@ucsd.edu](mailto:rtwomey@ucsd.edu)
 
-- **Instructors:**
+Professor Jennifer Mullin - Instructor of Record for MAE 190<br>
+Department of Mechanical and Aerospace Engineering <br>
+Email: [jmullin@ucsd.edu](mailto:jmullin@ucsd.edu)
 
-Professor Robert Twomey - Instructor of Record for VIS 147B
-Department of Visual Arts
-Email: rtwomey@ucsd.edu
-
-Professor Jennifer Mullin - Instructor of Record for MAE 190
-Department of Mechanical and Aerospace Engineering 
-Email: jmullin@ucsd.edu
+## Time and Location
 
 - **Class:** Tuesdays, 12:30 – 3:20 p.m.
 - **Location:** [SME](https://map.concept3d.com/?id=1005#!ct/18312,63891,65653?s/SME_Main) 302 (Classroom opposite Envision Maker Space)
@@ -35,7 +34,7 @@ Email: jmullin@ucsd.edu
 
 **Prequisites:** None.
 
-# Course Materials and Tools
+## Course Materials and Tools
 
 **Textbook**: There is no textbook required for this course. We will upload lecture materials, notes and resource materials to Canvas.
 
