@@ -55,27 +55,16 @@ Students who complete the course will:
 
 | Week | Topic |
 |------|-------|
-| 1 | **[Intro, Overview, and Imagination Board](sessions/week1.md)** Overview of Course & Policies; Art and Engineering, Creative Robotics; Imagination Board and Setup; Assign Reading 1; Assign HW1 |
-| 2 | **[Making Things Move](sessions/week2.md)** Analog Input/Output; Assign HW2; Expressive Behavior, Robotic Surrogates, and Portraiture; Assign Project 1|
-| 3 | **[Sensors and Sensations](sessions/week3.md)** Sensors; Cybernetics and Control Systems; Project 1 Work Time; Assign HW 3; Assign Reading 2 - Braitenberg|
-| 4 | **[Imagination Board](sessions/week4.md)** Project 1 Critique; Intro to Imagination Board|
-| 5 | **[Spooky Action at a Distance](sessions/week5.md)** Critique Project 1;Remote Sensing; Remote Control; Transistors, Solenoids, and External Power |
-| 6 | **[Networks](sessions/week6.md)** Networked Arduino; Distributed Sensors; |
-| 7 | **[Responsive Environments](sessions/week7.md)** <br> Situated Computing; Smart Objects; Ubiquitous Computing; Networked Free-for-All with MQTT |
-| 8 | **[Once More with Feeling(s)](sessions/week8.md)** Final Project Ideation and Workshopping; [Project 2](projects/project2.md)|
+| 1 | **[Intro, Overview, and Imagination Board](sessions/week1.md)** Overview of Course & Policies; Art and Engineering, Creative Robotics; Imagination Board and Setup; Assign Reading 1 - Braitenbrg _Vehicles_; Assign HW1 |
+| 2 | **[Making Things Move](sessions/week2.md)** Analog Input/Output; Assign HW2; Expressive Behavior, Robotic Surrogates, and Portraiture;  Assign Project 1; Assign HW2; Assign Reading 2 - McCarthy _Ascribing Mental Qualities to Machines_|
+| 3 | **[Sensors and Sensations](sessions/week3.md)** Sensors; Cybernetics and Control Systems; Project 1 Work Time; Assign HW3; Assign Reading 3 TBD|
+| 4 | **[Behaviors](sessions/week4.md)** Assign Reading 4 TBD; Assign Final Project|
+| 5 | **[Spooky Action at a Distance](sessions/week5.md)** Critique Project 1; Remote Sensing; Remote Control; Assign HW4; Assign Reading 5 TBD |
+| 6 | **[Networks](sessions/week6.md)** Networked Arduino; Distributed Sensors; Final Project Pitches with Proof of Concept |
+| 7 | **[Smart Objects](sessions/week7.md)** <br> Situated Computing; Smart Objects; Ubiquitous Computing |
+| 8 | **[Once More with Feeling(s)](sessions/week8.md)** Final Project Functional Prototypes; |
 | 9 | **Final Project Work Time** In class work on Project 2 |
 | 10 | **Work Time and Working Critique** |
-| Finals | **Submit Documentation** |
-
-FYS Schedule
-
-| Week | Topic |
-|------|-------|
-| 2 | **Getting Started** <br> - Course Structure; Sign up for Discord; Get started with Dev Board + Servo; <br> - **HW** start vision board; **HW** complete dev board challenge |
-| 4 | **Define your Avatar** <br> - Feedback on avatar concepts; Hands on with mechanical movement; Automata activity; <br> - **HW** cardboard automata; **HW** Explanatory sketch for avatar communicating form and function |
-| 5 | **Systems Design** <br> - Lecture cybernetics, Lecture project management; Hands on with sensors and actuators <br> - **HW** Build, test, and refine electromechanical mockup; **HW** List of materials for project |
-| 7 | **Working Session** <br> - Time and support for building and testing Avatar <br> - **HW** Complete your avatar for week 9 presentations |
-| 9 | **Presentation Party** <br> - Teddy bears' coming out picnic <br> - **HW** Final documentation submission |
 | Finals | **Submit Documentation** |
 
 # Grading
