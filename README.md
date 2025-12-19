@@ -57,15 +57,15 @@ Students who complete the course will:
 |------|-------|
 | 1 | **[Intro, Overview, and Imagination Board](sessions/week1.md)** <br> - Overview of Course & Policies; <br> - Art and Engineering, Creative Robotics; <br> - Imagination Board and Setup; <br> - Assign Reading 1 - Braitenberg _Vehicles_; <br> - Assign HW1 |
 | 2 | **[Making Things Move](sessions/week2.md)** <br> - Analog Input/Output; <br> - Expressive Behavior, Robotic Surrogates, and Portraiture; <br> - Assign Project 1; <br> - Assign HW2; <br> - Assign Reading 2 - McCarthy _Ascribing Mental Qualities to Machines_|
-| 3 | **[Sensors and Sensations](sessions/week3.md)** <br> - Sensors; <br> - Cybernetics and Control Systems; <br> - Project 1 Work Time; <br> - Assign Reading 3 N.Weiner on Cybernetics (TBD) <br> - Assign HW3; - Assign Final Project|
-| 4 | **[Behaviors](sessions/week4.md)** <br> - Programming Movement <br> -Assign Reading 4 TBD <br> - Finish Project 1 |
-| 5 | **[Choreobotics](sessions/week5.md)** <br> - Project 1 Critique; <br> - Reading: Choreobotics <br> - Assign HW 5 |
-| 6 | **[Networks](sessions/week6.md)** <br> - Networked Arduino; <br> - Distributed Sensors; <br> - Final Project Pitches with Proof of Concept |
-| 7 | **[Smart Objects](sessions/week7.md)** <br> - Situated Computing; <br> - Smart Objects; <br> - Ubiquitous Computing |
-| 8 | **[Once More with Feeling(s)](sessions/week8.md)** <br> -Final Project Functional Prototypes; |
+| 3 | **[Sensors and Sensations](sessions/week3.md)** <br> - Sensors; <br> - Cybernetics and Control Systems; <br> - Project 1 Work Time; <br> - Assign Reading 3 N.Weiner on Cybernetics (TBD) <br> - Assign HW3; <br> - Assign Final Project|
+| 4 | **[Choreography and Expressive Movement](sessions/week4.md)** <br> - Project 1 Critique; <br> - Reading: Choreobotics <br> - Assign HW 4 |
+| 5 | **[Behaviors](sessions/week5.md)** <br> - Programming Movement <br> -Assign Reading 4 - ELEGNT 2024 <br> - Finish Project 1 |
+| 6 | **[Smart Objects](sessions/week7.md)** <br> - Situated Computing; <br> - Smart Objects; <br> - Ubiquitous Computing <br> - Assign Reading: Open House|
+| 7 | **[Companions](sessions/week6.md)** <br> - Networked Arduino; <br> - Distributed Sensors; <br> - Final Project Pitches with Proof of Concept <br> - Assign Reading: Designing Sociable Robots |
+| 8 | **[Affective Interfaces - Once More with Feeling(s)](sessions/week8.md)** <br> -Final Project Functional Prototypes; <br> - Assign Reading: Machine Therapy|
 | 9 | **Final Project Work Time** <br> - In class work on Project 2 |
 | 10 | **Work Time and Working Critique** <br> - Work Time and Working Critique |
-| Finals | **Submit Documentation** <br> - Submit Documentation |
+| Finals | **Final Critique and Documentation** <br> - Final critique (_in person_) <br> - Submit Documentation |
 
 # Grading
 
@@ -75,7 +75,7 @@ Final grades are determined using the following grade breakdown:
 
 ## Graded Activities
 - 35% Exercises – approximately 6 weekly exercises
-- 45% Projects – 3 total at approximately 15% each
+- 45% Projects – midterm at final at approx 20 and 25% respectively
 - 10% Digital Sketchbook - cumulative
 - 10% Participation
 
