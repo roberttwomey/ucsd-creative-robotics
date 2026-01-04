@@ -27,8 +27,7 @@ Email: [jmullin@ucsd.edu](mailto:jmullin@ucsd.edu)
 - **Location:** [SME](https://map.concept3d.com/?id=1005#!ct/18312,63891,65653?s/SME_Main) 302 (Classroom opposite Envision Maker Space)
 - **Office Hours:** - TBD likely Wednesdays, 11:00 – 12:00 p.m. in SME 302
 - **Discussion Section** - (optional) Thursdays 1-1:50pm.
-- **Canvas:** [TK]
-
+- **Canvas:** ([link](https://canvas.ucsd.edu/courses/73110))
 
 **Prequisites:** None.
 
@@ -55,12 +54,12 @@ Students who complete the course will:
 |------|-------|
 | 1 | **[Intro, Overview, and Imagination Board](sessions/week1.md)** <br> - Overview of Course & Policies; <br> - Art and Engineering, Creative Robotics; <br> - Imagination Board and Setup; <br> - Assign Reading 1 - Braitenberg _Vehicles_; <br> - Assign HW1 |
 | 2 | **[Making Things Move](sessions/week2.md)** <br> - Analog Input/Output; <br> - Expressive Behavior, Robotic Surrogates, and Portraiture; <br> - Assign Project 1; <br> - Assign HW2; <br> - Assign Reading 2 - McCarthy _Ascribing Mental Qualities to Machines_|
-| 3 | **[Sensors and Sensations](sessions/week3.md)** <br> - Sensors; <br> - Cybernetics and Control Systems; <br> - Project 1 Work Time; <br> - Assign Reading 3 N.Weiner on Cybernetics (TBD) <br> - Assign HW3; <br> - Assign Final Project|
-| 4 | **[Choreography and Expressive Movement](sessions/week4.md)** <br> - Project 1 Critique; <br> - Reading: Choreobotics <br> - Assign HW 4 <br> - Finish Project 1 |
-| 5 | **[Behaviors](sessions/week5.md)** <br> - Programming Movement <br> -Assign Reading 4 - ELEGNT 2024 <br> - Critique Midterm Project |
-| 6 | **[Smart Objects](sessions/week7.md)** <br> - Situated Computing; <br> - Smart Objects; <br> - Ubiquitous Computing <br> - Assign Reading: Open House|
-| 7 | **[Companions](sessions/week6.md)** <br> - Networked Arduino; <br> - Distributed Sensors; <br> - Final Project Pitches with Proof of Concept <br> - Assign Reading: Designing Sociable Robots |
-| 8 | **[Affective Interfaces - Once More with Feeling(s)](sessions/week8.md)** <br> -Final Project Functional Prototypes; <br> - Assign Reading: Machine Therapy|
+| 3 | **[Sensors and Sensations](sessions/week3.md)** <br> - Sensors; <br> - Cybernetics and Control Systems; <br> - Project 1 Work Time; <br> - Assign Reading 3 N.Weiner _Cybernetics_ (TBD) <br> - Assign HW3; <br> - Assign Final Project|
+| 4 | **[Choreography and Expressive Movement](sessions/week4.md)** <br> - Project 1 Critique; <br> - Assign Reading 3: Cuan Choreobotics <br> - Assign HW 4 <br> - Finish Project 1 |
+| 5 | **[Behaviors](sessions/week5.md)** <br> - Programming Movement <br> -Assign Reading 4 - _ELEGNT_ 2024 <br> - Critique Midterm Project |
+| 6 | **[Situated Computing](sessions/week7.md)** <br> - Smart Objects; Ubiquitous Computing; Smart Environments <br> -  Assign HW 5 <br> - Assign Reading 5: Weiser _Open House_, J.G.Ballard _Thousand Dreams of Stella Vista_|
+| 7 | **[Companions](sessions/week6.md)** <br> - Networked Arduino; <br> - Distributed Sensors; <br> - Final Project Pitches with Proof of Concept <br> - Assign HW 6 <br> - Assign Reading 6: _Designing Sociable Robots_ |
+| 8 | **[Affective Interfaces - Once More with Feeling(s)](sessions/week8.md)** <br> -Final Project Functional Prototypes; <br> - Assign HW 7 <br> - Assign Reading 7: Dobson _Machine Therapy_ (excerpts)|
 | 9 | **Final Project Work Time** <br> - In class work on Project 2 |
 | 10 | **Work Time and Working Critique** <br> - Work Time and Working Critique |
 | Finals | **Final Critique and Documentation** <br> - Final critique (_in person_) <br> - Submit Documentation |
@@ -73,14 +72,14 @@ Final grades are determined using the following grade breakdown:
 
 ## Graded Activities
 - 35% Exercises – approximately 6 weekly exercises
-- 45% Projects – midterm at final at approx 20 and 25% respectively
+- 45% Projects – midterm and final at approx 20 and 25% respectively
 - 10% Digital Sketchbook - cumulative
 - 10% Participation
 
 ## Grading Scale
-A+ = 97-100 | A = 93-97 | A- = 90-93 <br>
-B+ = 87-90 | B = 83-87 | B- = 80-83 <br>
-C+ = 77-80 | C = 73-77 | C- = 70-73 <br>
+A+ = 97-100 | A = 94-97 | A- = 90-94 <br>
+B+ = 87-90 | B = 84-87 | B- = 80-84 <br>
+C+ = 77-80 | C = 74-77 | C- = 70-74 <br>
 F = below 60%<br>
 
 (In keeping with the UCSD Visual Arts grading scale, any grade below C- is considered a failing grade.)
@@ -124,9 +123,9 @@ On-time attendance is required. Lateness or leaving early, when not cleared with
 An assignment may receive an F if a student does not participate in every phase of the development of the project and meet all deadlines for preliminary materials (proposals, drafts, etc.).  Failure to submit any of the graded course assignments is grounds for failure in the course.  
 
 ## Academic Integrity
-Integrity of scholarship is essential for an academic community. The University expects that both faculty and students will honor this principle and in so doing protect the validity of University intellectual work. For students, this means that all academic work will be done by the individual to whom it is assigned, without unauthorized aid of any kind. [http://senate.ucsd.edu/Operating-Procedures/Senate-Manual/Appendices/2](http://senate.ucsd.edu/Operating-Procedures/Senate-Manual/Appendices/2)
+Integrity of scholarship is essential for an academic community. The University expects that both faculty and students will honor this principle and in so doing protect the validity of University intellectual work. **For students, this means that all academic work will be done by the individual to whom it is assigned, without unauthorized aid of any kind.** [http://senate.ucsd.edu/Operating-Procedures/Senate-Manual/Appendices/2](http://senate.ucsd.edu/Operating-Procedures/Senate-Manual/Appendices/2)
 
-Academic Integrity is expected of everyone at UC San Diego. This means that you must be honest, fair, responsible, respectful, and trustworthy in all of your actions. Lying, cheating, or any other forms of dishonesty will not be tolerated because they undermine learning and the University’s ability to certify students’ knowledge and abilities. Thus, any attempt to get, or help another get, a grade by cheating, lying or dishonesty will be reported to the Academic Integrity Office and will result in sanctions. **_Sanctions can include an F in the class and suspension or dismissal from the University._** So, think carefully before you act. Before you act, ask yourself the following questions: a: is my action honest, fair, respectful, responsible, and trustworthy, and b) is my action authorized by the instructor? If you are unsure, don’t ask a friend, ask your instructor, instructional assistant, or the Academic Integrity Office. You can learn more about academic integrity at academicintegrity.ucsd.edu.
+> Academic Integrity is expected of everyone at UC San Diego. This means that you must be honest, fair, responsible, respectful, and trustworthy in all of your actions. Lying, cheating, or any other forms of dishonesty will not be tolerated because they undermine learning and the University’s ability to certify students’ knowledge and abilities. Thus, any attempt to get, or help another get, a grade by cheating, lying or dishonesty will be reported to the Academic Integrity Office and will result in sanctions. **_Sanctions can include an F in the class and suspension or dismissal from the University._** So, think carefully before you act. Before you act, ask yourself the following questions: a: is my action honest, fair, respectful, responsible, and trustworthy, and b) is my action authorized by the instructor? If you are unsure, don’t ask a friend, ask your instructor, instructional assistant, or the Academic Integrity Office. You can learn more about academic integrity at [academicintegrity.ucsd.edu](https://academicintegrity.ucsd.edu/).
 
 (Source: Bertram Gallant, T. (2017). Teaching for integrity. UC San Diego Academic Integrity Office.)
 
@@ -135,6 +134,8 @@ Academic Integrity is expected of everyone at UC San Diego. This means that you 
 **If you use a piece of code from the p5 reference or another piece of publicly available code, you must cite your use of it at the top of your code file as a comment**. Include a link to the original code file, the author, and the date. 
 
 **This includes generated code**. You are allowed to use LLMs, [TritonGPT](https://blink.ucsd.edu/technology/ai/tritongpt/index.html), other Generative AI tools as part of your coding process, however **you must disclose this usage**. Add comments in your code indicating which parts were generated, and how you asked the system to help.
+
+Failure to properly cite external resources (included generative AI) will drop your grade.
 
 
 ## Students with Disabilities
