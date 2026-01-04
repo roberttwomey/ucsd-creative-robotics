@@ -10,9 +10,7 @@
 
 A continuation of the electronics curriculum. Design of programmable microcontroller systems for creating artworks that are able to respond to complex sets of input conditions, perform algorithmic and procedural processing, and generate real time output. Program or materials fees may apply. Purchase of components kit required. Two production-course limitation.
 
-For Winter 2026 this course will focus on design and development of mechatronic systems that demonstrates expressive behavior, using *programmable microcontrollers, sensors and actuators. Topics include the development of expressive behavior through visual design and mechanical motion, robotics, character design and modelling techniques (2d sketch, 3d digital and physical models).
-
-For Winter 2026 this course will be taught in parallel with Prof. Mullins' MAE 190. This collaboration is intinded to offer engineers and visual arts students an opportunity to learn from both disciplines. 
+For Winter 2026 this course will focus on design and development of mechatronic systems that demonstrates expressive behavior, using *programmable microcontrollers, sensors and actuators. Topics include the development of expressive behavior through visual design and mechanical motion, robotics, character design and modelling techniques (2d sketch, 3d digital and physical models). This course will be taught in parallel with Prof. Mullins' MAE 190. This collaboration is intinded to offer engineers and visual arts students an opportunity to learn from both disciplines. 
 
 ## Instructors
 Professor Robert Twomey - Instructor of Record for VIS 147B<br>
@@ -58,8 +56,8 @@ Students who complete the course will:
 | 1 | **[Intro, Overview, and Imagination Board](sessions/week1.md)** <br> - Overview of Course & Policies; <br> - Art and Engineering, Creative Robotics; <br> - Imagination Board and Setup; <br> - Assign Reading 1 - Braitenberg _Vehicles_; <br> - Assign HW1 |
 | 2 | **[Making Things Move](sessions/week2.md)** <br> - Analog Input/Output; <br> - Expressive Behavior, Robotic Surrogates, and Portraiture; <br> - Assign Project 1; <br> - Assign HW2; <br> - Assign Reading 2 - McCarthy _Ascribing Mental Qualities to Machines_|
 | 3 | **[Sensors and Sensations](sessions/week3.md)** <br> - Sensors; <br> - Cybernetics and Control Systems; <br> - Project 1 Work Time; <br> - Assign Reading 3 N.Weiner on Cybernetics (TBD) <br> - Assign HW3; <br> - Assign Final Project|
-| 4 | **[Choreography and Expressive Movement](sessions/week4.md)** <br> - Project 1 Critique; <br> - Reading: Choreobotics <br> - Assign HW 4 |
-| 5 | **[Behaviors](sessions/week5.md)** <br> - Programming Movement <br> -Assign Reading 4 - ELEGNT 2024 <br> - Finish Project 1 |
+| 4 | **[Choreography and Expressive Movement](sessions/week4.md)** <br> - Project 1 Critique; <br> - Reading: Choreobotics <br> - Assign HW 4 <br> - Finish Project 1 |
+| 5 | **[Behaviors](sessions/week5.md)** <br> - Programming Movement <br> -Assign Reading 4 - ELEGNT 2024 <br> - Critique Midterm Project |
 | 6 | **[Smart Objects](sessions/week7.md)** <br> - Situated Computing; <br> - Smart Objects; <br> - Ubiquitous Computing <br> - Assign Reading: Open House|
 | 7 | **[Companions](sessions/week6.md)** <br> - Networked Arduino; <br> - Distributed Sensors; <br> - Final Project Pitches with Proof of Concept <br> - Assign Reading: Designing Sociable Robots |
 | 8 | **[Affective Interfaces - Once More with Feeling(s)](sessions/week8.md)** <br> -Final Project Functional Prototypes; <br> - Assign Reading: Machine Therapy|
