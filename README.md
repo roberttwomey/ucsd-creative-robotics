@@ -161,13 +161,14 @@ This public acknowledgment serves to honor and respect Indigenous peoples and th
 
 # Tutorials
 ## Class-specific tutorials
-- [Getting Started with the Envision Dev Board](tutorials/getting-started-dev-board.md)
-- [Hands-On with Mechanical Movement](tutorials/gears-and-mechanisms.md)
-- [Sensors with the Dev Board](tutorials/dev-board-sensors.md)
-- [Actuators with the Dev Board](tutorials/dev-board-actuators.md)
+- [Getting Started with the Envision Dev Board](references/getting-started-dev-board.md)
+- [Hands-On with Mechanical Movement](references/gears-and-mechanisms.md)
+- [Sensors with the Dev Board](references/dev-board-sensors.md)
+- [Actuators with the Dev Board](references/dev-board-actuators.md)
+
 ## General Tutorials
-- [Rhino Quickstart](tutorials/rhino3d.md)
-- [Laser Cutting Guide](tutorials/laser-cutting.md)
+- [Rhino Quickstart](references/rhino3d.md)
+- [Laser Cutting Guide](references/laser-cutting.md)
 
 # Resources
 
@@ -199,6 +200,8 @@ This public acknowledgment serves to honor and respect Indigenous peoples and th
 ## Materials
 - [Where to get Materials](references/materials.md)
 - Students are asked to purchase/provide the ESP32 Dev Board along with other basic electronic components used throughout this course including the final project. 
+- To offer an economical option, students are encouraged to purchase **the MAE 190/VIS 147B electronics kit through the Envision Arts & Engineering Maker Studio for $25**. The kit includes: a Envision ESP32 Dev Board, a USB cable, a bread board, motors, sensors and connector wires for the course activities and assignments.
+The kit will be discussed and distributed in our first class meeting.
 - The complete list is available here: [Material List](https://docs.google.com/document/d/16meO_fiGe-2IXtZatGv2IwkkCf8VM45hPuA-N4YwOOE/edit?usp=sharing)
 
 # References
