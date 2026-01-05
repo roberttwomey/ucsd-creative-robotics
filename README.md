@@ -24,8 +24,8 @@ Email: [jmullin@ucsd.edu](mailto:jmullin@ucsd.edu)
 ## Time and Location
 
 - **Class:** Tuesdays, 12:30 – 3:20 p.m.
-- **Location:** [SME](https://map.concept3d.com/?id=1005#!ct/18312,63891,65653?s/SME_Main) 302 (Classroom opposite Envision Maker Space)
-- **Office Hours:** - TBD likely Wednesdays, 11:00 – 12:00 p.m. in SME 302
+- **Location:** [SME 304](https://map.concept3d.com/?id=1005#!ct/18312,63891,65653?s/SME_Main) (Joint Classroom opposite Envision Maker Space)
+- **Office Hours:** - TBD likely Wednesdays, 1:00-2:00pm
 - **Discussion Section** - (optional) Thursdays 1-1:50pm.
 - **Canvas:** ([link](https://canvas.ucsd.edu/courses/73110))
 
@@ -200,9 +200,8 @@ This public acknowledgment serves to honor and respect Indigenous peoples and th
 ## Materials
 - [Where to get Materials](references/materials.md)
 - Students are asked to purchase/provide the ESP32 Dev Board along with other basic electronic components used throughout this course including the final project. 
-- To offer an economical option, students are encouraged to purchase **the MAE 190/VIS 147B electronics kit through the Envision Arts & Engineering Maker Studio for $25**. The kit includes: a Envision ESP32 Dev Board, a USB cable, a bread board, motors, sensors and connector wires for the course activities and assignments.
+- To offer an economical option, students are encouraged to purchase **the MAE 190/VIS 147B electronics kit through the Envision Arts & Engineering Maker Studio for $25**. The kit includes: a Envision ESP32 Dev Board, a USB cable, a  bread board, motors, sensors and connector wires for the course activities and assignments.
 The kit will be discussed and distributed in our first class meeting.
-- The complete list is available here: [Material List](https://docs.google.com/document/d/16meO_fiGe-2IXtZatGv2IwkkCf8VM45hPuA-N4YwOOE/edit?usp=sharing)
 
 # References
 
