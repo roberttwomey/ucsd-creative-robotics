@@ -13,6 +13,7 @@ The Arduino blink example turns the on-board LED on for 1 second and off for 1 s
 Is your signal a coded communication, like Evan’s texts rendered in Morse code? Can we read it? Is it evocative of emotional state (frightened, cheerful, aggressive)? Does it repeat, forever, with no hope of response, or execute some finite sequence? Who starts the device, who resets it, and when? Is a meaningful, low-bandwidth signal necessarily coded? Does it respond to a sensor 
 
 # Process
+Make sure you have completed the [Getting Started with the Envision Dev Board](../references/getting-started-dev-board.md) setup instructions and are able to upload code to your board and 
 1. Start with the Arduino blink example (**Examples->01.Basics->Blink**), you will convert this simple ON/OFF pattern into a meaningful signal combined with somekind of input to trigger the message.
 2. Develop the **signaling** output:
   - add more ON and OFF statements (`digitalWrite(HIGH)` and `digitalWrite(LOW)`).
@@ -22,7 +23,7 @@ Is your signal a coded communication, like Evan’s texts rendered in Morse code
 5. Add an input, to trigger the behavior:
   - this could be a digital input (pushbutton, magnetic reed switch, etc.)
   - this could be an analog input (potentiometer, thermistor, rangefinder)
-6. Upload your code frequently to the arduino to see how it looks. Iterate on your code.
+6. Upload your code frequently to the Envision Board to see how it looks. Iterate on your code.
 
 # Submission
 1. Canvas:

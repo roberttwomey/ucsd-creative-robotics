@@ -1,5 +1,8 @@
 # Getting Started with the Dev Board
+
 This tutorial walks you through initial getting started activities to set up your dev board. 
+
+![Illustation of the Envision Tools of Imagination dev board showing key pin outputs](assets/devboard-pinout.png)
 
 ## 1. Software Setup
 Install the [Arduino IDE](https://www.arduino.cc/en/software) on your laptop.
