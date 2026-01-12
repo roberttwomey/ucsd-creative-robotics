@@ -52,14 +52,14 @@ Students who complete the course will:
 
 | Week | Topic |
 |------|-------|
-| 1 | **[Intro, Overview, and Imagination Board](sessions/week1.md)** <br> - Overview of Course & Policies; <br> - Art and Engineering, Creative Robotics; <br> - Imagination Board and Setup; <br> - Assign Reading 1 - Braitenberg _Vehicles_; <br> - Assign HW1 |
-| 2 | **[Making Things Move](sessions/week2.md)** <br> - Analog Input/Output; <br> - Expressive Behavior, Robotic Surrogates, and Portraiture; <br> - Assign Project 1; <br> - Assign HW2; <br> - Assign Reading 2 - McCarthy _Ascribing Mental Qualities to Machines_|
-| 3 | **[Sensors and Sensations](sessions/week3.md)** <br> - Sensors; <br> - Cybernetics and Control Systems; <br> - Project 1 Work Time; <br> - Assign Reading 3 N.Weiner _Cybernetics_ (TBD) <br> - Assign HW3; <br> - Assign Final Project|
-| 4 | **[Choreography and Expressive Movement](sessions/week4.md)** <br> - Project 1 Critique; <br> - Assign Reading 3: Cuan Choreobotics <br> - Assign HW 4 <br> - Finish Project 1 |
-| 5 | **[Behaviors](sessions/week5.md)** <br> - Programming Movement <br> -Assign Reading 4 - _ELEGNT_ 2024 <br> - Critique Midterm Project |
-| 6 | **[Situated Computing](sessions/week7.md)** <br> - Smart Objects; Ubiquitous Computing; Smart Environments <br> -  Assign HW 5 <br> - Assign Reading 5: Weiser _Open House_, J.G.Ballard _Thousand Dreams of Stella Vista_|
-| 7 | **[Companions](sessions/week6.md)** <br> - Networked Arduino; <br> - Distributed Sensors; <br> - Final Project Pitches with Proof of Concept <br> - Assign HW 6 <br> - Assign Reading 6: _Designing Sociable Robots_ |
-| 8 | **[Affective Interfaces - Once More with Feeling(s)](sessions/week8.md)** <br> -Final Project Functional Prototypes; <br> - Assign HW 7 <br> - Assign Reading 7: Dobson _Machine Therapy_ (excerpts)|
+| 1 | **Intro, Overview, and Imagination Board** <br> - Overview of Course & Policies; <br> - Art and Engineering, Creative Robotics; <br> - Imagination Board and Setup; <br> - Assign Reading 1 - Braitenberg _Vehicles_; <br> - Assign HW1 |
+| 2 | **Making Things Move** <br> - Analog Input/Output; <br> - Expressive Behavior, Robotic Surrogates, and Portraiture; <br> - Assign Project 1; <br> - Assign HW2; <br> - Assign Reading 2 - McCarthy _Ascribing Mental Qualities to Machines_|
+| 3 | **Sensors and Sensations** <br> - Sensors; <br> - Cybernetics and Control Systems; <br> - Project 1 Work Time; <br> - Assign Reading 3 N.Weiner _Cybernetics_ (TBD) <br> - Assign HW3; <br> - Assign Final Project|
+| 4 | **Choreography and Expressive Movement** <br> - Project 1 Critique; <br> - Assign Reading 3: Cuan Choreobotics <br> - Assign HW 4 <br> - Finish Project 1 |
+| 5 | **Behaviors** - Programming Movement <br> -Assign Reading 4 - _ELEGNT_ 2024 <br> - Critique Midterm Project |
+| 6 | **Situated Computing** <br> - Smart Objects; Ubiquitous Computing; Smart Environments <br> -  Assign HW 5 <br> - Assign Reading 5: Weiser _Open House_, J.G.Ballard _Thousand Dreams of Stella Vista_|
+| 7 | **Companions** <br> - Networked Arduino; <br> - Distributed Sensors; <br> - Final Project Pitches with Proof of Concept <br> - Assign HW 6 <br> - Assign Reading 6: _Designing Sociable Robots_ |
+| 8 | **Affective Interfaces - Once More with Feeling(s)** <br> -Final Project Functional Prototypes; <br> - Assign HW 7 <br> - Assign Reading 7: Dobson _Machine Therapy_ (excerpts)|
 | 9 | **Final Project Work Time** <br> - In class work on Project 2 |
 | 10 | **Work Time and Working Critique** <br> - Work Time and Working Critique |
 | Finals | **Final Critique and Documentation** <br> - Final critique (_in person_) <br> - Submit Documentation |
@@ -162,9 +162,9 @@ This public acknowledgment serves to honor and respect Indigenous peoples and th
 # Tutorials
 ## Class-specific tutorials
 - [Getting Started with the Envision Dev Board](references/getting-started-dev-board.md)
-- [Hands-On with Mechanical Movement](references/gears-and-mechanisms.md)
-- [Sensors with the Dev Board](references/dev-board-sensors.md)
 - [Actuators with the Dev Board](references/dev-board-actuators.md)
+- [Sensors with the Dev Board](references/dev-board-sensors.md)
+- (NOT YET FINISHED) [Hands-On with Mechanical Movement](references/gears-and-mechanisms.md)
 
 ## General Tutorials
 - [Rhino Quickstart](references/rhino3d.md)
