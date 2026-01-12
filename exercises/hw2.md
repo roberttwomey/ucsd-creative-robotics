@@ -6,8 +6,13 @@
 
 You will create a simple servo plus dev board construction with a stationary base and a moving part. This could be a bar of soap that waves hello. It could be a dog that wags its tail, or something more absurd. Your stationary base should hold the servo (so measure the base of your servo), and the moving part should attach to the servo horn. 
 
-You are responsible for this result as an object. You could use a 3d model, or modify a readymade object. You could add movement to an existing object, or fabricate your own.
+You are responsible for this result **as an object**. You could model and fabricate your own 3d model or modify an existing object.
 
+# Requirements
+1. Your submission must have _at least_ two parts: a stationary base and a moving part. You could have more. 
+2. You are responsible for your result _as an object_. 
+3. Use the existing servo code for the dev board together with a micro servo from your kit.
+4. Create a combination of motion plus object that is expressive, in some sense. It could be a figure waving hello. Or a shy object that turns away from you. Describe your expressive motion in your documentation.
 BONUS: Add a 2nd Degree of Freedom (DOF).
 
 # Process
@@ -21,20 +26,15 @@ BONUS: Add a 2nd Degree of Freedom (DOF).
   - Upload your code frequently to the dev board to see how it looks. Iterate on your code.
 6. Document and demonstrate.
 
-# Documentation
-
-1. Document your sketches and any plans/designs.
-2. Photograph your parts and the final assembly. 
-3. Record a video of your object in motion. 
-
 # Submission
 1. Canvas:
    - Arduino code as .zip file. 
-   - Photo of your circuit.
-   - Video documenting your "expressive movement" in action.
+   - Photograph your parts and the final assembly. 
+   - Record a video of your object in motion.
    - (use the naming convention _hw2_Lastname_1.zip_, _hw2_Lastname.jpg_ and _hw2_Lastname.mp4 for the files.)
 2. Sketchbook Updates:
-   - add all of the images, photos, diagrams, and links to the video to your sketchbook. Make sure video is playable by Jennifer and me!
+   - Document your sketches and any plans/designs.
+   - Add all of the images, photos, diagrams, and links to the video to your sketchbook. Make sure video is playable by Jennifer and me!
 
 DUE 1/20 (Tuesday) to Canvas.
 

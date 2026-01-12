@@ -93,7 +93,7 @@ With the photoresistor setup and arduino code from [part 1](#photoresistor-part-
 
 
 ## Homework
-- Exercise 2: [Making Things Move](../exercises/hw2.md) DUE next wednesday 10/16
+- Exercise 2: [Making Things Move](../exercises/hw2.md) DUE next Tuesday 1/20
 - Start ideating for [Project 1](../projects/project1.md)
 
 ## References

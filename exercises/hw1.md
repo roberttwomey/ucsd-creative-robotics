@@ -20,9 +20,11 @@ Make sure you have completed the [Getting Started with the Envision Dev Board](.
   - add more `delays()`.
   - add loops, booleans, or more complex logic.
   - the combination of ON, delay, OFF, delay, ON, etc... will be the pattern/signal that you are creating.
-5. Add an input, to trigger the behavior:
-  - this could be a digital input (pushbutton, magnetic reed switch, etc.)
-  - this could be an analog input (potentiometer, thermistor, rangefinder)
+5. Optional: 
+  - Add an input, to trigger the behavior:
+    - this could be a digital input (pushbutton, magnetic reed switch, etc.)
+    - this could be an analog input (potentiometer, thermistor, rangefinder)
+  - Work with the **Fade** example and PWM to use dyanmic brightness in an expressive manner.
 6. Upload your code frequently to the Envision Board to see how it looks. Iterate on your code.
 
 # Submission
@@ -34,7 +36,7 @@ Make sure you have completed the [Getting Started with the Envision Dev Board](.
 2. Sketchbook Updates:
    - add images, photos, diagrams, and links to the video to your sketchbook.
 
-DUE 10/9, 9am (Wednesday) to [Canvas](https://canvas.ucsd.edu/courses/60624/assignments/863887)
+DUE 1/12, 11:59pm (End of Day Tuesday) to Canvas.
 
 # References
 - Words Imagined: Cerith Wyn Evans by Marty Carlock, Sculpture Magazine (June 1, 2005) [https://sculpturemagazine.art/words-imagined-cerith-wyn-evans/](https://sculpturemagazine.art/words-imagined-cerith-wyn-evans/)

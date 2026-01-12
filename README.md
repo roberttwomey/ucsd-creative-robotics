@@ -52,8 +52,8 @@ Students who complete the course will:
 
 | Week | Topic |
 |------|-------|
-| 1 | **Intro, Overview, and Imagination Board** <br> - Overview of Course & Policies; <br> - Art and Engineering, Creative Robotics; <br> - Imagination Board and Setup; <br> - Assign Reading 1 - Braitenberg _Vehicles_; <br> - Assign HW1 |
-| 2 | **Making Things Move** <br> - Analog Input/Output; <br> - Expressive Behavior, Robotic Surrogates, and Portraiture; <br> - Assign Project 1; <br> - Assign HW2; <br> - Assign Reading 2 - McCarthy _Ascribing Mental Qualities to Machines_|
+| 1 | **Intro, Overview, and Imagination Board** <br> - Overview of Course & Policies; <br> - Art and Engineering, Creative Robotics; <br> - [Imagination Board and Setup](references/getting-started-dev-board.md); <br> - Assign Reading 1 - Braitenberg _Vehicles_; <br> - Assign [HW1](exercises/hw1.md) |
+| 2 | **Making Things Move** <br> - Analog Input/Output; <br> - Expressive Behavior, Robotic Surrogates, and Portraiture; <br> - Assign Reading 2 - McCarthy _Ascribing Mental Qualities to Machines_; <br> - Assign [HW2: Making Things Move](exercises/hw2.md); <br> - Assign Project 1; |
 | 3 | **Sensors and Sensations** <br> - Sensors; <br> - Cybernetics and Control Systems; <br> - Project 1 Work Time; <br> - Assign Reading 3 N.Weiner _Cybernetics_ (TBD) <br> - Assign HW3; <br> - Assign Final Project|
 | 4 | **Choreography and Expressive Movement** <br> - Project 1 Critique; <br> - Assign Reading 3: Cuan Choreobotics <br> - Assign HW 4 <br> - Finish Project 1 |
 | 5 | **Behaviors** - Programming Movement <br> -Assign Reading 4 - _ELEGNT_ 2024 <br> - Critique Midterm Project |
