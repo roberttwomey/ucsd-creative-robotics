@@ -1,5 +1,6 @@
 # Week 2 - Making Things Move
 
+
 ## Agenda
 - Review/Discuss HW1 + Reading
 - [Artist(s) of the Day](#artists-of-the-day)
@@ -10,8 +11,8 @@
   - [Servo knob](#servo-knob)
   - [Photoresistor Part 2](#photoresistor-part-2) light responsive motion
 - [Homework](#homework)
-  - Making Things Move (DUE next Tuesday 10/20)
-  - Assign Project 1 - Augmentation (DUE Week 5)
+  - **HW2 [Making Things Move](../exercises/hw2.md)** (DUE next Tuesday 10/20)
+  - **Project 1 - Augmentation** (DUE Week 5)
 
 ## Artist(s) of the Day
 
