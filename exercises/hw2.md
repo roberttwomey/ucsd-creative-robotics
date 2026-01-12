@@ -1,8 +1,14 @@
-# Making Things Move - Expressive Movement
+![an animated gif loop of a uselss machine where the user flicks a switch and the machine switches it off](assets/useless-machine.gif)
 
-You will create a simple servo plus dev board construction with a stationary base and a moving part. This could be a bar of soap that waves hello. It could be a flower that looks around from its pot. It could be a dog that wags its tail, or something more absurd. 
+<small><i>A useless machine. small, but expressive</i></small>
 
-Your stationary base should hold the servo (so measure the base of your servo), and the moving part should attach to the servo horn. 
+# Making Things Move
+
+You will create a simple servo plus dev board construction with a stationary base and a moving part. This could be a bar of soap that waves hello. It could be a dog that wags its tail, or something more absurd. Your stationary base should hold the servo (so measure the base of your servo), and the moving part should attach to the servo horn. 
+
+You are responsible for this result as an object. You could use a 3d model, or modify a readymade object. You could add movement to an existing object, or fabricate your own.
+
+BONUS: Add a 2nd Degree of Freedom (DOF).
 
 # Process
 
@@ -35,14 +41,3 @@ DUE 1/20 (Tuesday) to Canvas.
 # References
 
 - See examples in our week 2 slides.
-
-----
-
-![circuit with powering a cardboard box with muscle man arms attached](assets/muscle-box.png)
-
-Student Work - Johnny Carson Center for Emerging Media Arts
-
-----
-![owl head made of blue tape](image.png)
-
-----
