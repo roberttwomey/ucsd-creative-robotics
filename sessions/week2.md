@@ -94,15 +94,7 @@ We are going to use the potentiometer knob as an input device. You can think of 
 ![Image](https://www.arduino.cc/wiki/static/b0be5a84f8d4dd59d63cf0c102102fa6/b06ae/knob_schem.png)
 
 - Reading the schematic.
-- Use the servo to control two knobs. 
-
-### Photoresistor Part 2
-With the photoresistor setup and arduino code from [part 1](#photoresistor-part-1) above:
-
-1. Use [`map()`](https://www.arduino.cc/reference/en/language/functions/math/map/) to scale those analog values to 0 -> 180 degrees (the full range of the servo)
-2. Interact with the photoresistor and see the motor move. 
-3. Extension: Instead of directly mapping sensor values to servo position, use the sensor values to trigger specific motions. For instance, have if statements that move it to different positions depending on how much light it sees.
-
+- Use the knob to control the servo.
 
 ## Homework
 - Exercise 2: [Making Things Move](../exercises/hw2.md) DUE next Tuesday 1/20
