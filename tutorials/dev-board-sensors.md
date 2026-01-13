@@ -88,5 +88,8 @@ NOT IN ELEGOO KIT
   - Modify your code to convert Celsius to fahrenheit. 
   - Explore the dynamic behavior: how quickly does it change in response to breathing on it? In response to touching it? Can you get the temperature to go up, or go down?
 
+## Capacitive Touch Sensing
+[TK]
+
 # References
 [TK]
