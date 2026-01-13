@@ -13,7 +13,7 @@ You are responsible for this result **as an object**. You could model and fabric
 2. You are responsible for your result _as an object_. 
 3. Use the existing servo code for the dev board together with a micro servo from your kit.
 4. Create a combination of motion plus object that is expressive, in some sense. It could be a figure waving hello. Or a shy object that turns away from you. Describe your expressive motion in your documentation.
-BONUS: Add a 2nd Degree of Freedom (DOF).
+5. **BONUS**: Add a 2nd Degree of Freedom (DOF).
 
 # Process
 

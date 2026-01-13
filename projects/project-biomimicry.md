@@ -1,4 +1,4 @@
-# Augmentation
+# Biomimicry
 
 <img src="https://i.vimeocdn.com/video/510995310-137ac31797f68b1f7b9d7c09b401a733cb284cc81c2e9e708541caccaee709b0-d?mw=1600&mh=900&q=70" width=600>
 

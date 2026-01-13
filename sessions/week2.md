@@ -52,29 +52,41 @@ Another use of Pulse Width Modulation is driving the position of a servo motor.
 
 ### Servo Sweep
 
-- Install the Servo library: 
-  - **Tools** -> **Manage Libraries**: 
-    - <img width="300" alt="image" src="https://user-images.githubusercontent.com/1598545/199737681-24316f67-162c-4575-b1e5-931186a644c5.png"> 
-  - Search for **Servo**. Click **Install**:
-    - <img width="400" alt="image" src="https://user-images.githubusercontent.com/1598545/199737612-735b282d-016f-4162-897a-6d06e2802555.png">
-  - Select the "Sweep" example: 
-    - <img width="400" alt="image" src="https://user-images.githubusercontent.com/1598545/199741588-8e8a7d49-9f1a-4bff-a5db-9fd8c0d67384.png">
+1. Install the **ESP32Servo** library: 
+   - **Tools** -> **Manage Libraries**: 
+     - <img width="300" alt="image" src="https://user-images.githubusercontent.com/1598545/199737681-24316f67-162c-4575-b1e5-931186a644c5.png"> 
+   - Search for **ESP32Servo**. Click **Install**:
+    - <img width="400" alt="image" src="assets/esp32-servo.png">
+2. Under **Examples** -> **ESP32Servo**, select the **Sweep** example: 
+   - <img width="400" alt="image" src="assets/esp32-servo-sweep.png">
+   - Make sure that your servo is connected to the pins used in the example code. Or change the pins in the code to match your setup.
+   - ![alt text](assets/esp32-servo-pwm-pins.png)
+4. Wire up the servo:
+   - BLACK/BROWN -> Ground
+   - RED/YELLOW -> +5V
+   - ORANGE -> your `servoPin`.
+3. Compile and run the example.
 
+#### What is PWM?
+
+**Timing Diagram**
 ![image](https://user-images.githubusercontent.com/1598545/140386249-6cd37d02-87af-4730-b97e-e04a0f0afb11.png)
 
+**Simplified Wiring Diagram**
 ![Image](https://www.arduino.cc/wiki/static/dcca996e7af6025b856c4907c3ffa235/01e7c/sweep_schem.png)
 
 https://www.arduino.cc/en/Tutorial/LibraryExamples/Sweep
 
+**Talk Through**
 - How to read a schematic
 - Pulse Width Modulation
   - (`analogWrite()`!)
   - more on PWM [Secrets of Arduino PWM](https://www.arduino.cc/en/Tutorial/SecretsOfArduinoPWM)
 
 ### Servo Knob
-A knob is a kind of simple "sensor" to drive the servo motion.
+We are going to use the potentiometer knob as an input device. You can think of a knob as a kind of simple "sensor" to drive the servo motion.
 
-- Under **Examples** -> **Servo**, select the **Knob** example: 
+- Under **Examples** -> **ESP32Servo**, select the **Knob** example: 
   - <img width="300" alt="image" src="https://user-images.githubusercontent.com/1598545/199742032-4d5e6b1f-d340-47ff-93bb-e52343f48ed6.png">
 
 ![Image](https://www.arduino.cc/wiki/static/32db11499efe2d9c9ee451f7996e42a2/e85cb/knob_bb.png)
@@ -94,7 +106,7 @@ With the photoresistor setup and arduino code from [part 1](#photoresistor-part-
 
 ## Homework
 - Exercise 2: [Making Things Move](../exercises/hw2.md) DUE next Tuesday 1/20
-- Start ideating for [Project 1](../projects/project1.md)
+- Start ideating for [Project 1](../projects/project1.md) Augmentation
 
 ## References
 
