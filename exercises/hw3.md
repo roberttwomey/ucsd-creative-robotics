@@ -1,35 +1,24 @@
-# Remote Control
+# Even Machines As Simple as Thermostats
 
-Extend our in-class activities with the ESP32 Dev Board (TOI) using Bluetooth Low Energy (BLE) to read and write from the device. Control some number of remote actuators using a p5 sketch. You could take your biomimicry project and rebuild it to use BLE instead of a serial connection. Or think of some other interesting behavior that could be triggered/controlled remotely.
+In his 1969 essay arguing in favor of Strong Artificial Intelligence, John McCarthy ascribed human qualities of belief, desire, and intention to simple sensors and electronics. In fact, he said: "Even machines as simple as thermostats can be said to have beliefs."
 
-# Process
+[Link John McCarthy, in "Ascribing Mental Qualities to Machines" 1969](http://jmc.stanford.edu/articles/ascribing/ascribing.pdf)
 
-Build on our in-class experiments with BLE. 
+For this exercise, I want you to make a functional design sketch of a machine that appears to have feelings. It should incorporate one simple sensor (distance, temperature, light), and some simple output (servo, geared DC motor, or other like buzzer). 
 
-# Documentation
-
-1. Document your sketches and any plans/designs.
-2. Photograph your parts and the final assembly. 
-3. Record a video of the object in motion. 
+You will write simple code that reads in the input sensor and responds to that input with some behavior. As you did in our other exercises, think about how a simple system can communicate with very limited means. Here we are adding a sensor so a way of responding to the world. You will combine parts of the Knob, Sweep, rangefinder, and other examples from the past few weeks.
 
 # Submission
 1. Canvas:
    - Arduino code as .zip file. 
-   - Photo of your circuit.
-   - Video documenting your "signal" in action.
+   - Photo(s) of your circuit.
+   - Video documenting your sensing-actuation construction in action.
    - (use the naming convention _hw3_Lastname_1.zip_, _hw3_Lastname.jpg_ and _hw3_Lastname.mp4 for the files.)
-2. Sketchbook Updates:
-   - add all of the images, photos, diagrams, and links to the video to your sketchbook. Make sure video is playable by me!
-3. Reflection: Add a minimum 5 sentence comment in the submission text box where you provide the following:
-   - A description of your submission (what you tried to do) (1-2 sentences)
-   - A personal reflection: use the elements of a SOAR note (4+ sentences)
-   - How did today feel? How did you feel you did? (Subjective)
-   - What did you actually do today? How long did it take? (Objective)
-   - What do you need to focus on tomorrow, or next? (Action)
-   - What did you learn from today's experience that you can take moving forward? (Reflection)
 
-DUE 11/6 (Wednesday) to [Canvas](https://canvas.ucsd.edu/courses/60624/assignments/870599)
+2. Sketchbook Updates:
+   - add images of your circuit + devices, Rhino/STL files for anything fabricated, text describing your process.
+
+DUE: 1/27/2026, noon. See Canvas.
 
 # References
-
-[TK]
+- [TK]

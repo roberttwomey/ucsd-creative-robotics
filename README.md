@@ -54,8 +54,8 @@ Students who complete the course will:
 |------|-------|
 | 1 | [**Intro, Overview, and Imagination Board**](sessions/week1.md) <br> - Overview of Course & Policies; <br> - Art and Engineering, Creative Robotics; <br> - [Imagination Board and Setup](references/getting-started-dev-board.md); <br> - Assign Reading 1 - Braitenberg _Vehicles_; <br> - Assign [HW1](exercises/hw1.md) |
 | 2 | [**Making Things Move**](sessions/week2.md) <br> - Analog Input/Output; <br> - Expressive Behavior, Robotic Surrogates, and Portraiture; <br> - Assign Reading 2 - McCarthy _Ascribing Mental Qualities to Machines_; <br> - Assign [HW2: Making Things Move](exercises/hw2.md); <br> - Assign Project 1; |
-| 3 | **Sensors and Sensations** <br> - Sensors; <br> - Cybernetics and Control Systems; <br> - Project 1 Work Time; <br> - Assign Reading 3 N.Weiner _Cybernetics_ (TBD) <br> - Assign HW3; <br> - Assign Final Project|
-| 4 | **Choreography and Expressive Movement** <br> - Project 1 Critique; <br> - Assign Reading 3: Cuan Choreobotics <br> - Assign HW 4 <br> - Finish Project 1 |
+| 3 | [**Sensors and Sensations**](sessions/week3.md) <br> - Cybernetics and Control Systems; <br> - Hands on with sensors and actuators; <br> - Project 1 Work Time; <br> - Assign Reading 3 N.Weiner _Cybernetics_ (TBD) <br> - Assign [HW3: Even Machines Have Feelings](exercises/hw3.md); |
+| 4 | **Choreography and Expressive Movement** <br> - Project 1 Critique; <br> - Assign Reading 4: Cuan Choreobotics <br> - Assign HW 4 <br> - Finish Midterm Project <br> - Assign Final Project|
 | 5 | **Behaviors** - Programming Movement <br> -Assign Reading 4 - _ELEGNT_ 2024 <br> - Critique Midterm Project |
 | 6 | **Situated Computing** <br> - Smart Objects; Ubiquitous Computing; Smart Environments <br> -  Assign HW 5 <br> - Assign Reading 5: Weiser _Open House_, J.G.Ballard _Thousand Dreams of Stella Vista_|
 | 7 | **Companions** <br> - Networked Arduino; <br> - Distributed Sensors; <br> - Final Project Pitches with Proof of Concept <br> - Assign HW 6 <br> - Assign Reading 6: _Designing Sociable Robots_ |
