@@ -1,3 +1,7 @@
+![photos of hanging biomorphic mobiles with lights and sensors](assets/pask-mobiles.png)
+
+<small><i>Gordon Pask’s COLLOQUY OF MOBILES at the Institute for Contemporary Art in London, part of an exhibition called Cybernetic Serendipity in 1968 [link](https://www.colloquyofmobiles.com/)</i></small>
+
 # Even Machines As Simple as Thermostats
 
 In his 1969 essay arguing in favor of Strong Artificial Intelligence, John McCarthy ascribed human qualities of belief, desire, and intention to simple sensors and electronics. In fact, he said: "Even machines as simple as thermostats can be said to have beliefs."
