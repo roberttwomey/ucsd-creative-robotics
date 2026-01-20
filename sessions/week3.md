@@ -261,6 +261,9 @@ void loop () {
 ```
 Download: [esp32-ultrasonic.zip](assets/esp32-ultrasonic.zip)
 
+#### Gotcha: USB CDC ON BOOT
+
+Be sure you have enable USB CDC ON BOOT: Enabled. See the [Getting Started with the Dev Board](https://roberttwomey.github.io/ucsd-creative-robotics/references/getting-started-dev-board.html#2-setup-and-configure-the-dev-board) tutorial.
 
 ## Beliefs and Desires
 - Discuss McCarthy reading from one weeks ago.
