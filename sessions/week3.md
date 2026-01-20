@@ -6,13 +6,13 @@
 - [Artist(s) of the Day](#artists-of-the-day)
 - Tutorial: Basic Sensing and Analog Input
   - [Digital Input](#digital-input)
-  - [Analog input](#analog-input)
-  - [Analog Read Serial](#analog-read-serial)
+  - [Analog Input](#analog-input)
+  <!--- [Analog Read Serial](#analog-read-serial)-->
   - [Photoresistor Part 1](#photoresistor-part-1) light sensor
 - Advanced Sensors
   - [Thermistors](#thermistors) (resistive)
-  - [Temperature Humidity sensor](#temperature-sensor) (active)
   - [Ultrasonic Rangefinder](#ultrasonic-rangefinder)
+  - [PIR](#pir)
 - Discuss: Beliefs/Desires
 - Project 1 Check-In and Work Time
 - [Homework](#homework)
@@ -64,7 +64,62 @@ Lillian Schwartz [Pixillation](https://www.thehenryford.org/collections-and-rese
 
 ### Digital Input
 
-[TK PIR sensor]
+#### Pushbuttons on the Dev Board
+
+![esp32 diagram showing pinouts and function](assets/devboard-pinout.png)
+
+The ESP32 Dev Board has onboard buttons attached to pins 12 and 13. You can read these as digital inputs. 
+
+The following is based on the **Files**->**Examples**->**02.Digital**->**Button** example. We need to modify the pinouts to match our dev board: 
+
+```c
+/*
+  Button
+
+  Turns on and off a built-in light emitting diode(LED) connected to digital pin 17,
+  when pressing a built-in button attached to digital pin 12.
+
+  Based on code DojoDave <http://www.0j0.org>
+  modified by Tom Igoe
+
+  https://docs.arduino.cc/built-in-examples/digital/Button/
+*/
+
+// constants won't change. They're used here to set pin numbers:
+const int buttonPin = 12;  // the number for one of the built-in buttons
+const int ledPin = 17;    // the number for one of the built-in LEDs
+
+// variables will change:
+int buttonState = 0;  // variable for reading the pushbutton status
+
+void setup() {
+  // initialize the LED pin as an output:
+  pinMode(ledPin, OUTPUT);
+  // initialize the pushbutton pin as an input:
+  pinMode(buttonPin, INPUT);
+}
+
+void loop() {
+  // read the state of the pushbutton value:
+  buttonState = digitalRead(buttonPin);
+
+  // check if the pushbutton is pressed. If it is, the buttonState is HIGH:
+  if (buttonState == HIGH) {
+    // turn LED on:
+    digitalWrite(ledPin, HIGH);
+  } else {
+    // turn LED off:
+    digitalWrite(ledPin, LOW);
+  }
+}
+```
+
+Download: [esp32-button.zip](assets/esp32-button.zip)
+
+This wil turn the LED on and off when you hold the button. 
+
+Exercise: 
+- Modify this to be a toggle switch. Keep track of `lastState` `HIGH` or `LOW` and switch when you press the button. 
 
 ### Analog Input
 
@@ -78,7 +133,54 @@ Lillian Schwartz [Pixillation](https://www.thehenryford.org/collections-and-rese
   - Look at how a potentiometer (as voltage divider) changes voltages
   - Show how a changing voltage corresponds to an `analogRead()`
 
-### Analog Read Serial
+On the ESP32 dev board, pins 1-10 and 11-18 function as analog inputs. We need to use those pins for our analog in. 
+
+```c
+/*
+  Analog Input
+
+  Demonstrates analog input by reading an analog sensor on analog pin 0 and
+  turning on and off a built-in light emitting diode(LED) connected to 
+  digital pin 17. The amount of time the LED will be on and off depends on 
+  the value obtained by analogRead().
+
+  The circuit:
+  - potentiometer
+    center pin of the potentiometer to pin 1 (analog inputs on  1-10, 11-18)
+    one side pin (either one) to ground
+    the other side pin to +5V
+
+  created by David Cuartielles modified By Tom Igoe
+  https://docs.arduino.cc/built-in-examples/analog/AnalogInput/
+*/
+
+int sensorPin = 1;   // select the input pin for the potentiometer
+int ledPin = 17;      // select the pin for the LED (built-in LED)
+int sensorValue = 0;  // variable to store the value coming from the sensor
+
+void setup() {
+  // declare the ledPin as an OUTPUT:
+  pinMode(ledPin, OUTPUT);
+}
+
+void loop() {
+  // read the value from the sensor:
+  sensorValue = analogRead(sensorPin);
+  // turn the ledPin on
+  digitalWrite(ledPin, HIGH);
+  // stop the program for <sensorValue> milliseconds:
+  delay(sensorValue);
+  // turn the ledPin off:
+  digitalWrite(ledPin, LOW);
+  // stop the program for <sensorValue> milliseconds:
+  delay(sensorValue);
+}
+```
+
+Download: [esp32-analog-in.zip](assets/esp32-analog-in.zip)
+
+<!--
+#### Analog Read Serial
 <img src="https://www.arduino.cc/wiki/static/7dbfb4b4c090ba1bc52c2a779822b8f9/29007/analoginoutserial1_bb.png" width=800>
 
 [https://docs.arduino.cc/built-in-examples/basics/AnalogReadSerial](https://docs.arduino.cc/built-in-examples/basics/AnalogReadSerial)
@@ -91,7 +193,7 @@ Lillian Schwartz [Pixillation](https://www.thehenryford.org/collections-and-rese
 - Activity: 
   - Use [`map()`](https://www.arduino.cc/reference/en/language/functions/math/map/) to scale those analog values to 0-255, and use that to fade a jumbo LED (`analogWrite()`)
 - We can use `serial.write()` to communicate with p5, or processing, or maxMSP or any other program that can read from a serial port.
-
+-->
 ### Photoresistor Part 1
 
 <img src="https://www.arduino.cc/wiki/static/bb8d0c184836ed4f8cabf71c3dc07ce9/29007/PhotoCellA0.png" width=800>
@@ -118,36 +220,6 @@ LAST TIME WE DID THIS!
   - including more about voltage dividers: [https://learn.adafruit.com/thermistor/using-a-thermistor#analog-voltage-reading-method-2917724](https://learn.adafruit.com/thermistor/using-a-thermistor#analog-voltage-reading-method-2917724)
 - Demo: How a thermistor changes resistance with changes in temperature
 
-### Temperature and Humidity
-
-1) Install DHT11 Library: **Tools** -> **Manage Libraries** -> search for DHT11 by Dhruba Saha. 
-   - <img src="assets/image.png" width=300>
-2) Try Examples -> DHT11 -> Read Temperature
-3) Wire up circuit (confirm Elegoo DHT11 pinouts before powering on, DATA/OUT should go to Arduino D2)
-
-   - ![](assets/dht11-wiring.png)
-
-DHT11 Protocol ![alt text](assets/dht11-timing.png)
-from ([https://www.ocfreaks.com/basics-interfacing-dht11-dht22-humidity-temperature-sensor-mcu/](https://www.ocfreaks.com/basics-interfacing-dht11-dht22-humidity-temperature-sensor-mcu/))
-
-### Temperature Sensor
-
-NOT IN ELEGOO KIT
-
-![image](https://user-images.githubusercontent.com/1598545/141343262-3c12cb66-e550-4696-81d9-30cc9c1ac033.png)
-
-(image from [Adafruit](https://learn.adafruit.com/tmp36-temperature-sensor/using-a-temp-sensor))
-
-- The [TMP 36GZ](http://www.us.diigiit.com/tmp36gz-temperature-sensor) is a temperature sensor.
-- This is an active sensor, meaning we provide power to ground and 5V, and it outputs a voltage proportional to temperature.
-  - Looking at the [datasheet](http://www.us.diigiit.com/download/TMP35-36-37.pdf), we see it is 10mV/degree Celsius. That means we can use the output voltage (read by analog in) to figure out what the temperature is.
-- To convert from AnalogRead value to milli-volts: __Voltage at pin in milliVolts = (reading from ADC) * (5000/1024)__
-- To convert from milliVolts to degree celsius: __Centigrade temperature = [(analog voltage in mV) - 500] / 10__
-- Activity: 
-  - Use AnalogReadSerial to figure out what the current temperature in the room is in Celsius.
-  - Modify your code to convert Celsius to fahrenheit. 
-  - Explore the dynamic behavior: how quickly does it change in response to breathing on it? In response to touching it? Can you get the temperature to go up, or go down?
-
 ### Ultrasonic Rangefinder
 
 <img width="800" alt="image" src="https://user-images.githubusercontent.com/1598545/201957013-f666732a-57be-410c-85c1-76aa5d606797.png">
@@ -156,25 +228,47 @@ NOT IN ELEGOO KIT
   - ![alt text](assets/hcsr04.png)
 - Try the **File->Examples->HCSR04->simple** example. 
 
-**NOTE❗❗**: Change the line that initializes the sensor to use pins 12 and 11 from: 
+**NOTE❗❗**: Change the line that initializes the sensor to use pins 11 and 10 from: 
 ```c
 UltraSonicDistanceSensor distanceSensor(13, 12);  // Initialize sensor that uses digital pins 13 and 12.
 ```
 to
 ```c
-UltraSonicDistanceSensor distanceSensor(12, 11);  // Initialize sensor that uses digital pins 12 and 11.
+UltraSonicDistanceSensor distanceSensor(11, 10);  // Initialize sensor that uses digital pins 11 and 10.
 ``` 
 (shown in the diagram above)
 
 HC SR04 Timing Diagram ![alt text](assets/hc-sr04-timing.png)
 ![alt text](image.png)
-## Beliefs and Desires
 
+```c
+#include <HCSR04.h>
+
+const byte triggerPin = 11;
+const byte echoPin = 10;
+UltraSonicDistanceSensor distanceSensor(triggerPin, echoPin);
+
+void setup () {
+    Serial.begin(115200);  // We initialize serial connection so that we could print values from sensor.
+    Serial.println("Hello...");
+}
+
+void loop () {
+    // Every 500 miliseconds, do a measurement using the sensor and print the distance in centimeters.
+    Serial.println(distanceSensor.measureDistanceCm());
+    delay(500);
+}
+```
+Download: [esp32-ultrasonic.zip](assets/esp32-ultrasonic.zip)
+
+
+## Beliefs and Desires
 - Discuss McCarthy reading from one weeks ago.
 
 ## Homework
-- Finish [Project 1](../projects/project1.md) Biomimicry (DUE 10/23 for in class critique)
-- Reading + Discussion: [Experiments in Art And Technology](https://canvas.ucsd.edu/courses/60624/discussion_topics/823521) (DUE 10/23 for discussion)
+- Reading + Discussion: Experiments in Art And Technology - DUE 1/27 for discussion
+- HW: Sensing and Control - DUE 1/27
+- Start work on Midterm.
 
 ## References
 - ELEGOO Super Starter Kit pdf files: [https://drive.google.com/file/d/1SO3fE0uGj5zWoRDyEcqw6EWSEa3kLStb/view](https://drive.google.com/file/d/1SO3fE0uGj5zWoRDyEcqw6EWSEa3kLStb/view)
