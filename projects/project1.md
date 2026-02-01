@@ -12,7 +12,17 @@ For this project you will design an augmentation. This could be a wearable for a
 3. Fabrication
 4. Program
 
-# Submission
+# Proposal
+
+1. Add new pages to your digital sketchbook. Address the questions from the [Design Considerations](#design-considerations) above. 
+2. Add sketches, images, that communicate your creative plans.
+
+# Prototype
+
+1. Bring a functional prototype with 2 degrees of freedom to class on Week 5. 
+2. Add pages to your digital sketchbook that document this functional prototype.
+
+# Final Submission
 1. Sketchbook Updates:
    - add sketches; circuit designs; photographs of parts/components; process images/videos; photos of final product; any notes, narrative about process.
 2. Submission: 
@@ -23,7 +33,7 @@ For this project you will design an augmentation. This could be a wearable for a
    - Upload all of these files to Canvas
      - (use the naming convention _lastname_p1.jpg_ _lastname_p1.3dm_, _lastname_p1.zip_ for source code)
 
-DUE 2/3/2026 (Tuesday) to Canvas.
+DUE to Canvas check deadline there.
 
 # References
 
