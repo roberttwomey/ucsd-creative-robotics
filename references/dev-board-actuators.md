@@ -43,17 +43,17 @@ We are going to use the potentiometer knob as an input device. You can think of 
 - Use the servo to control two knobs. 
 
 ## DC Motors
-Continous forward/backward motion controlled with PWM outputs. Including geared DC motors, which are a special instance of the above with slower rotation rate. 
+Continous forward/backward motion and speed control with PWM outputs. Including geared DC motors, which are a special instance of the above with slower rotation rate. 
 
 ### Wiring
 
 From the ESP32 to the Motor Shield, connect: 
 
-GND -> GND
-5V -> 5V
-3.3V -> 3.3V
-pin 45 -> pin 45 (MTR1A)
-pin 46 -> pin 46 (MTR1B)
+- GND -> GND
+- 5V -> 5V
+- 3.3V -> 3.3V
+- pin 45 -> pin 45 (MTR1A)
+- pin 46 -> pin 46 (MTR1B)
 
 Connect the two wires of your DC motor to M1 screw terminal. 
 Connect external power to 4.5-11V in.
