@@ -43,6 +43,9 @@ We are going to use the potentiometer knob as an input device. You can think of 
 - Use the servo to control two knobs. 
 
 ## DC Motors
+
+Drive DC motors using Colin's motor shield. 
+
 Continous forward/backward motion and speed control with PWM outputs. Including geared DC motors, which are a special instance of the above with slower rotation rate. 
 
 ### Wiring
@@ -102,7 +105,88 @@ void loop() {
 }
 ```
 
-Download: [esp32_dcmotor.zip](assets/esp32_dcmotor.zip)
+## DC Motors and Servo
+
+This example controls a single DC motor (with direction and speecd) together with a single servo using Colin's ESP32 Motor Shield. 
+
+### Wiring
+
+From the ESP32 to the Motor Shield, connect: 
+
+- GND -> GND
+- 5V -> 5V
+- 3.3V -> 3.3V
+- pin 39 -> pin 39 (MTR4B)
+- pin 40 -> pin 40 (MTR4A)
+- pin 44 -> pin 44
+
+Connect the two wires of your DC motor to M1 screw terminal. 
+
+Connect the three wires of the servo to the three pins next to pin 44. Be sensitive to the GND, 5V and SIGNAL. 
+
+Connect external power to 4.5-11V in.
+
+### Code
+
+```C++
+// Using the DRV8835DSSR driver on the Envision Motor Shield
+// define the pins for IN-IN mode (MTR4A and MTR4B)
+// rtwomey@ucsd.edu
+#include <ESP32Servo.h>
+
+// M4 on pins 39 and 40
+const int in1Pin = 39; // MTR4B
+const int in2Pin = 40; // MTR4A
+
+Servo myServo;
+const int servoPin = 44; // Servo on Pin 44
+
+// PWM Settings
+const int freq = 10000;  
+const int resolution = 8; // 0-255 range
+
+void setup() {
+  // Allow allocation of all timers
+  ESP32PWM::allocateTimer(0);
+  ESP32PWM::allocateTimer(1);
+  ESP32PWM::allocateTimer(2);
+  ESP32PWM::allocateTimer(3);
+  myServo.setPeriodHertz(50); // Standard 50hz servo
+  myServo.attach(servoPin, 500, 2400); // Attach with min/max pulse widths
+}
+
+void loop() {
+  // Move Forward at 75% speed
+  // IN1 gets PWM, IN2 stays LOW
+  analogWrite(in1Pin, 192);
+  analogWrite(in2Pin, 0);
+  delay(4000);
+
+  // Brake (Locks the motor)
+  analogWrite(in1Pin, 255);
+  analogWrite(in2Pin, 255);
+  delay(2000);
+
+  // Move Backward at 100% speed
+  // IN1 stays LOW, IN2 gets PWM
+  analogWrite(in1Pin, 0);
+  analogWrite(in2Pin, 255);
+  delay(4000);
+  
+  // Coast (Let the motor spin down freely)
+  analogWrite(in1Pin, 0);
+  analogWrite(in2Pin, 0);
+  delay(2000);
+
+  // servo movement
+  myServo.write(0);   // Move to 0 degrees
+  delay(1000);
+  myServo.write(90);  // Move to 90 degrees
+  delay(1000);
+  myServo.write(180); // Move to 180 degrees
+  delay(1000);
+}
+```
 
 ## PCA9685 12bit Servo Driver
 
@@ -155,9 +239,6 @@ void setServoAngle(uint8_t n, int angle) {
   pwm.setPWM(n, 0, pulse);
 }
 ```
-
-Download: [esp32_pca9685.zip](assets/esp32_pca9685.zip)
-
 
 ## Solenoid
 Push (or pull) linear potion. Digital (on/off).
