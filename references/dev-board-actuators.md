@@ -59,6 +59,7 @@ From the ESP32 to the Motor Shield, connect:
 - pin 46 -> pin 46 (MTR1B)
 
 Connect the two wires of your DC motor to M1 screw terminal. 
+
 Connect external power to 4.5-11V in.
 
 ### Code
