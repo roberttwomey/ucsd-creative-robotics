@@ -164,6 +164,7 @@ This public acknowledgment serves to honor and respect Indigenous peoples and th
 - [Getting Started with the Envision Dev Board](references/getting-started-dev-board.md)
 - [Actuators with the Dev Board](references/dev-board-actuators.md)
 - [Sensors with the Dev Board](references/dev-board-sensors.md)
+- [Bluetooth with the Dev Board](references/bluetooth.md)
 - (NOT YET FINISHED) [Hands-On with Mechanical Movement](references/gears-and-mechanisms.md)
 
 ## General Tutorials
