@@ -60,13 +60,24 @@ You will submit a two paragraph proposal for your idea addressing the following 
 
 This written description will be submitted online to Canvas by Friday 2/20 end of day.
 
+## Low-Fidelity Prototype
+
+For this week you are being asked to finalize your Final Project proposal (2 paragraphs) (see HW 7a - Final Project Proposal) and also create a Low Fidelity Prototype. 
+
+A low fidelity prototype. This means: work quick; NO CAD, no 3dp; use found materials; paper prototyping, cardboard prototype, kluge, wizard of oz-ing; this gives us a sense of physical design, functionality, size, use, behavior but does not actually implement any advanced technology. **Bring this to next class.**
+
+Copy your final project proposal (text) as well as documentation of your low fidelity prototype (and any sketches) into your digital sketchbook. Submit below as text paragraphs and PDF.
+
 ## Deliverables
 
 1. Machines + Feelings - 3 Concepts/Design Ideas
    - 3 pages of sketches, diagrams, and notes in your digital sketchbook (pdf)
 2. Proposal: 
    - Written proposal submitted to Canvas and added to your digital sketchbook (pdf)
-3. Final Project Submission:  
+3. Low-Fidelity Prototype: 
+   - Documentation of your low fidelity prototype (and any sketches) into your digital sketchbook. Submit as text paragraphs and PDF.
+   - Bring your low-fidelity prototype to class for working groups and peer feedback.
+4. Final Project Submission:  
    - Add the following to your digital sketchbook and submit:
      - Written Project Description (update your written proposal once you are done with the project, this is your project description)
      - Images
@@ -74,8 +85,8 @@ This written description will be submitted online to Canvas by Friday 2/20 end o
     - source code (as zip)
     - circuit diagrams
     - photographs and/video of finished piece. 
-3. Critique: 
-   - Be prepared to present your project for Critique in Week 10.
+5. Critique: 
+   - Be prepared to present your project for Critique in class Week 10.
    
 # References
 

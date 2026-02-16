@@ -57,12 +57,12 @@ Students who complete the course will:
 | 3 | [**Sensors and Sensations**](sessions/week3.md) <br> - Cybernetics and Control Systems; <br> - Hands on with sensors and actuators; <br> - Project 1 Work Time; <br> - Assign Reading 3: Experiments in Art and Technology <br> - Assign [HW3: Even Machines Have Feelings](exercises/hw3.md); |
 | 4 | **Expressive Movement** <br> - DC motor Control; multiple servos; Midterm checkin <br> - Project 1 Work Session; <br> - Assign Reading 4: _ELEGENT_ 2024 _Ottoman_ <br> - [Assign HW 4: Midterm Prototype](projects/project1.md#prototype) <br> |
 | 5 | **Behaviors** - Programming Movement <br> - Midterm Work Time <br> - [DC Motor Driver with Colin's Motor Driver Shield](references/dev-board-actuators.md#dc-motors) <br> - [DC Motor and Servo with Colin's Motor Driver Shield](references/dev-board-actuators.md#dc-motors-and-servo)<br> - [Servos with PCA9685 Board](references/dev-board-actuators.md#pca9685-12bit-servo-driver) <br> -Assign Reading 5: _Designing Sociable Robots_ <br> - DUE Fri  - Midterm Proposal+Prototype|
-| 6 | **Situated Computing** <br> - Critique Midterm Projects <br> - Smart Objects; Ubiquitous Computing; Smart Environments <br> - Critique Midterm Project <br> -  Assign HW 5 <br> - Assign Reading 6: Weiser _Open House_, J.G.Ballard _Thousand Dreams of Stella Vista_ <br> - Assign Final Project |
-| 7 | **Companions** <br> - Networked Arduino; <br> - Distributed Sensors; <br> - Final Project Pitches with Proof of Concept <br> - Assign HW 6 <br> - Assign Reading 7: _Choreobotics_ |
-| 8 | **Affective Interfaces - Once More with Feeling(s)** <br> -Final Project Functional Prototypes; <br> - Assign HW 7 <br> - Assign Reading 8: Dobson _Machine Therapy_ (excerpts)|
+| 6 | **Midterm Critique and Affective Interfaces - Once More with Feeling(s)** <br> - Critique Midterm Projects <br> - Smart Objects; Ubiquitous Computing; Smart Environments <br> - Critique Midterm Project <br> -  Assign HW 6: 3 Concepts "Affective Machines" <br> - Assign Reading 6: Dobson _Machine Therapy_ (excerpts) <br> - Assign Final Project |
+| 7 | **Remote Control** <br> - Remote control - BLE + Wifi: [bluetooth](references/bluetooth.md) <br> - Working Discussion: 3 Concepts "Affective Machines" <br> - Assign HW 7a: Final Project Proposal and 7b:Low Fidelity Prototype <br> - Assign Reading 7: _My Elegant Robot Freedom_ <br> |
+| 8 | **Situated Computing + 3D Design** <br> - Discuss: Final Project Functional Prototypes; <br> - 3D Design: How to CAD ([rhino](references/rhino.md) and onshape or Fusion360) <br> - Assign HW 8: Final Project WIP <br> - Assign Reading 8: Weiser _Open House_, J.G.Ballard _Thousand Dreams of Stella Vista_ |
 | 9 | **Final Project Work Time** <br> - In class work on Project 2 |
-| 10 | **Work Time and Working Critique** <br> - Work Time and Working Critique |
-| Finals | **Final Critique and Documentation** <br> - Final critique (_in person_) <br> - Submit Documentation |
+| 10 | **Final Critique** <br> - Final Project critique (_in person_) with special guests. |
+| Finals | **Final Documentation** <br> - Submit Documentation |
 
 # Grading
 
