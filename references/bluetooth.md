@@ -4,6 +4,7 @@
 - Hands-On  
   - [ESP32 Bluetooth](#esp32s3-bluetooth)
   - [BLE Scanner App](#ble-scanner-app)
+  - [ESP32 BLE Scanner](#esp32-ble-scanner)
     - detect if user is nearby (RSSI and MAC/identifier)
   - [BLE LED](#ble-led)
   - [BLE button](#ble-button)
@@ -20,6 +21,83 @@ nRF Connect is a good one for iOS, Anrdoid, and other OSes.
 
 - search in your app store
 - or download for computer [https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop](https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop)
+
+## ESP32 BLE Scanner
+
+Write a program to scan for nearby BLE devices and detect if a specific device (like your phone) is nearby.
+
+__1. Find your Phone's BLE MAC Address__
+
+- Use nRF Connect (on a second phone) or system settings to find your phone's Bluetooth MAC address.
+- Note: iOS devices often randomize their MAC address or hide it. You might need a dedicated BLE beacon or another ESP32 to test stable detection.
+
+__2. Compile and upload arduino code__
+
+```C++
+/* 
+Electronic Technologies for Art II
+et4a.roberttwomey.com | rtwomey@ucsd.edu
+
+ble-scanner
+
+Scans for nearby BLE devices and detects a specific MAC address.
+*/
+
+#include <BLEDevice.h>
+#include <BLEUtils.h>
+#include <BLEScan.h>
+#include <BLEAdvertisedDevice.h>
+
+int scanTime = 5; //In seconds
+BLEScan* pBLEScan;
+
+// TARGET_DEVICE_MAC: Replace with your device's MAC address
+// Format: "xx:xx:xx:xx:xx:xx" (lowercase)
+String targetDeviceMac = "24:6f:28:ae:34:56"; 
+
+class MyAdvertisedDeviceCallbacks: public BLEAdvertisedDeviceCallbacks {
+    void onResult(BLEAdvertisedDevice advertisedDevice) {
+      // Serial.printf("Advertised Device: %s \n", advertisedDevice.toString().c_str());
+      
+      // Convert found MAC to String for comparison
+      String currentMac = advertisedDevice.getAddress().toString().c_str();
+      
+      // Check if the found device matches our target
+      if (currentMac == targetDeviceMac) {
+        Serial.println("***************************");
+        Serial.println("Target Device Found!");
+        Serial.printf("Device: %s \n", advertisedDevice.toString().c_str());
+        Serial.printf("RSSI: %d \n", advertisedDevice.getRSSI());
+        Serial.println("***************************");
+      }
+    }
+};
+
+void setup() {
+  Serial.begin(115200);
+  Serial.println("Scanning...");
+
+  BLEDevice::init("");
+  pBLEScan = BLEDevice::getScan(); //create new scan
+  pBLEScan->setAdvertisedDeviceCallbacks(new MyAdvertisedDeviceCallbacks());
+  pBLEScan->setActiveScan(true); //active scan uses more power, but get results faster
+  pBLEScan->setInterval(100);
+  pBLEScan->setWindow(99);  // less or equal setInterval value
+}
+
+void loop() {
+  BLEScanResults foundDevices = pBLEScan->start(scanTime, false);
+  Serial.print("Devices found: ");
+  Serial.println(foundDevices.getCount());
+  Serial.println("Scan done!");
+  pBLEScan->clearResults();   // delete results fromBLEScan buffer to release memory
+  delay(2000);
+}
+```
+
+__3. Activity__
+- Modify the code to light up an LED when your target device is found.
+- Use the RSSI (Signal Strength) to determine how close the device is.
 
 ## BLE LED
 
