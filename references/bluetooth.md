@@ -4,7 +4,7 @@
 - Hands-On  
   - [ESP32 Bluetooth](#esp32s3-bluetooth)
   - [BLE Scanner App](#ble-scanner-app)
-  - [ESP32 BLE Scanner](#esp32-ble-scanner)
+  - ~~[ESP32 BLE Scanner](#esp32-ble-scanner)~~ **does not work**
     - detect if user is nearby (RSSI and MAC/identifier)
   - [BLE LED](#ble-led)
   - [BLE button](#ble-button)
@@ -23,6 +23,8 @@ nRF Connect is a good one for iOS, Anrdoid, and other OSes.
 - or download for computer [https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop](https://www.nordicsemi.com/Products/Development-tools/nRF-Connect-for-Desktop)
 
 ## ESP32 BLE Scanner
+
+!! **DOES NOT WORK** !! will revisit at a later date
 
 Write a program to scan for nearby BLE devices and detect if a specific device (like your phone) is nearby.
 
