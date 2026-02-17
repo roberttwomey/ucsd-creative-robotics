@@ -33,7 +33,7 @@ __1. Find your Phone's BLE MAC Address__
 
 __2. Compile and upload arduino code__
 
-```C++
+```cpp
 /* 
 Electronic Technologies for Art II
 et4a.roberttwomey.com | rtwomey@ucsd.edu
@@ -105,7 +105,7 @@ Control the onboard LED1 or LED2 using a BLE characteristic.
 
 __1. Compile and upload arduino code__
 
-```C++
+```cpp
 /* 
 Electronic Technologies for Art II
 et4a.roberttwomey.com | rtwomey@ucsd.edu
@@ -237,7 +237,7 @@ Use the onboard switch (**SW1**) to control an on-screen sketch.
 
 __1. Compile and upload arduino code__
 
-```C++
+```cpp
 /* 
 Electronic Technologies for Art II
 et4a.roberttwomey.com | rtwomey@ucsd.edu

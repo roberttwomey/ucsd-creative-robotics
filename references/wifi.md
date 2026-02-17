@@ -18,7 +18,7 @@ It supports WPA/WPA2/WPA3 security protocols and has long-range (LR) capabilitie
 
 This program creates a wireless access point (AP) and a captive portal that redirects to a web page. That webpage (served from the ESP32) allows you to control the onboard LED1. 
 
-```C++
+```cpp
 /*
  * ESP32-S3 WiFi Access Point Captive Portal Logic
  *
@@ -162,9 +162,14 @@ void loop() {
 
 download: [esp32-wifi-captive-button.ino](assets/esp32-wifi-ap-captive.zip)
 
-__0. Modify the Network Name in the code (currently `ESP32-Control`) to a readily identifiable name of your choice__
+__0. Modify the Network Name__
 
-__1. Compile and upload the program __
+- In the code, change the line that says ```const char *ssid = "ESP32-Control";```, renaming the network from `ESP32-Control` to a readily identifiable name of your choice
+
+
+__1. Compile and upload the program__
+
+- Select ESP32S3 Dev Module for board type, and select your USB port (as usual)
 
 __2. Reboot the Dev board__
 
@@ -179,7 +184,7 @@ __3. Connect to the Wireless Network__
 
 __4. Control the LED__
 
-- Use the ON and OFF buttons to control the onboard LED.
+- Use the ON and OFF buttons through the web form to control the onboard LED.
 
 __5. Extensions__
 
